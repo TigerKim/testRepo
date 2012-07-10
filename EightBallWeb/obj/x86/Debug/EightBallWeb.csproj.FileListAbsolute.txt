@@ -1,0 +1,2 @@
+D:\test\wpf_demo\wpf_demo\EightBallWeb\obj\x86\Debug\EightBall.exe
+D:\test\wpf_demo\wpf_demo\EightBallWeb\obj\x86\Debug\EightBall.pdb
