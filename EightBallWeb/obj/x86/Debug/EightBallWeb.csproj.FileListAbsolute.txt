@@ -10,3 +10,5 @@ D:\test\wpf_demo\wpf_demo\EightBallWeb\obj\x86\Debug\GenerateResource.read.1.tlo
 D:\test\wpf_demo\wpf_demo\EightBallWeb\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\test\wpf_demo\wpf_demo\EightBallWeb\bin\Debug\EightBall.exe
 D:\test\wpf_demo\wpf_demo\EightBallWeb\bin\Debug\EightBall.pdb
+C:\test_wpf\testRepo_20120711\EightBallWeb\obj\x86\Debug\EightBall.exe
+C:\test_wpf\testRepo_20120711\EightBallWeb\obj\x86\Debug\EightBall.pdb
