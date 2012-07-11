@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridSplitterDemo", "GridSpl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridSharedSizeGroupDemo", "GridSharedSizeGroupDemo\GridSharedSizeGroupDemo.csproj", "{97557AFF-0CB8-42DA-B59E-1243007734A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisibilityDemo", "VisibilityDemo\VisibilityDemo.csproj", "{AF038DB9-38C3-49FF-9219-0CBBBB8D779E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -31,6 +33,10 @@ Global
 		{97557AFF-0CB8-42DA-B59E-1243007734A1}.Debug|x86.Build.0 = Debug|x86
 		{97557AFF-0CB8-42DA-B59E-1243007734A1}.Release|x86.ActiveCfg = Release|x86
 		{97557AFF-0CB8-42DA-B59E-1243007734A1}.Release|x86.Build.0 = Release|x86
+		{AF038DB9-38C3-49FF-9219-0CBBBB8D779E}.Debug|x86.ActiveCfg = Debug|x86
+		{AF038DB9-38C3-49FF-9219-0CBBBB8D779E}.Debug|x86.Build.0 = Debug|x86
+		{AF038DB9-38C3-49FF-9219-0CBBBB8D779E}.Release|x86.ActiveCfg = Release|x86
+		{AF038DB9-38C3-49FF-9219-0CBBBB8D779E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
