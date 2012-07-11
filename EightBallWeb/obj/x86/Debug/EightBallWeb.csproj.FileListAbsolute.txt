@@ -12,3 +12,13 @@ D:\test\wpf_demo\wpf_demo\EightBallWeb\bin\Debug\EightBall.exe
 D:\test\wpf_demo\wpf_demo\EightBallWeb\bin\Debug\EightBall.pdb
 C:\test_wpf\testRepo_20120711\EightBallWeb\obj\x86\Debug\EightBall.exe
 C:\test_wpf\testRepo_20120711\EightBallWeb\obj\x86\Debug\EightBall.pdb
+C:\test_wpf\testRepo_20120711\EightBallWeb\bin\Debug\EightBall.exe
+C:\test_wpf\testRepo_20120711\EightBallWeb\bin\Debug\EightBall.pdb
+C:\test_wpf\testRepo_20120711\EightBallWeb\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\test_wpf\testRepo_20120711\EightBallWeb\obj\x86\Debug\MainWindow.baml
+C:\test_wpf\testRepo_20120711\EightBallWeb\obj\x86\Debug\App.g.cs
+C:\test_wpf\testRepo_20120711\EightBallWeb\obj\x86\Debug\EightBall_MarkupCompile.cache
+C:\test_wpf\testRepo_20120711\EightBallWeb\obj\x86\Debug\EightBall.g.resources
+C:\test_wpf\testRepo_20120711\EightBallWeb\obj\x86\Debug\EightBall.Properties.Resources.resources
+C:\test_wpf\testRepo_20120711\EightBallWeb\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\test_wpf\testRepo_20120711\EightBallWeb\obj\x86\Debug\GenerateResource.write.1.tlog

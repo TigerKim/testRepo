@@ -5,6 +5,11 @@
         Title="2장 소스" Height="375" Width="493">
     <Grid>
         <Grid Name="grid1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300" />
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="Auto" />
@@ -12,23 +17,21 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <TextBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                     Margin="10,10,13,10" Name="txtQuestion" TextWrapping="Wrap" FontFamily="Verdana" FontSize="24"
-                     Grid.Row="0">
+                     Margin="10,10,0,10" Name="txtQuestion" TextWrapping="Wrap" FontFamily="Verdana" FontSize="24">
                 [Place question here.]
             </TextBox>
             <Button VerticalAlignment="Top" HorizontalAlignment="Left"
-                    Margin="10,0,0,20" Width="127" Height="23"
+                    Margin="10,0,0,0" Width="127" Height="23"
                     Name="cmdAnswer"
                     Click="cmdAnswer_Click" Grid.Row="1">
                 Ask the Egith Ball
             </Button>
             <TextBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                     Margin="10,10,13,10" Name="txtAnswer" TextWrapping="Wrap" FontFamily="Verdana" FontSize="24"
+                     Margin="10,10,0,10" Name="txtAnswer" TextWrapping="Wrap" FontFamily="Verdana" FontSize="24"
                      Grid.Row="2">
                 [Answer will appear here.]
             </TextBox>
-            <ListBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                     Margin="10,10,13,10" Name="listBoxEx" 
+            <ListBox Margin="10,10,0,10" Name="listBoxEx" 
                      Grid.Row="3">
                 <ListBoxItem>
                     <sys:DateTime>10/13/2010 4:40 PM</sys:DateTime>
@@ -37,7 +40,8 @@
                     <sys:DateTime>10/13/2010 5:40 PM</sys:DateTime>
                 </ListBoxItem>
             </ListBox>
-
+            <GridSplitter Grid.Row="0" Grid.Column="1" Grid.RowSpan="4" Grid.ColumnSpan="1" Width="3"></GridSplitter>
+            <Button Content="Button" Grid.Column="2" Grid.Row="3" Height="23" HorizontalAlignment="Left" Margin="42,79,0,0" Name="button1" VerticalAlignment="Top" Width="8" />
             <Grid.Background>
                 <LinearGradientBrush>
                     <LinearGradientBrush.GradientStops>
@@ -47,7 +51,7 @@
                     </LinearGradientBrush.GradientStops>
                 </LinearGradientBrush>
             </Grid.Background>
-            
+           
         </Grid>
     </Grid>
 </Window>

@@ -1,0 +1,30 @@
+﻿<Window x:Class="GridSharedSizeGroupDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel Orientation="Vertical" Grid.IsSharedSizeScope="True">
+        <Grid Name="grid1" Margin="3" ShowGridLines="True" Height="100">
+        
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" SharedSizeGroup="TextLabel"></ColumnDefinition>
+                <ColumnDefinition Width="Auto" SharedSizeGroup="TextLabel"></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Margin="3" Content="A very Long bit of text"></Button>
+            <Button Grid.Column="1" Margin="3">More Text</Button>
+            <TextBox Grid.Column="2" Margin="3">A text box</TextBox>
+        
+        </Grid>
+        <TextBlock Height="40">Some Text in between the two grids.</TextBlock>
+        <Grid Name="grid2" Margin="3" ShowGridLines="True" Height="100">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" SharedSizeGroup="TextLabel"></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>                
+            </Grid.ColumnDefinitions>
+            <Button Margin="5">Short</Button>
+            <TextBox  Grid.Column="1" Margin="5">A text box</TextBox>
+
+        </Grid>
+    </StackPanel>
+</Window>

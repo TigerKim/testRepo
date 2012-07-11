@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightBall", "EightBall\Eigh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightBallWeb", "EightBallWeb\EightBallWeb.csproj", "{D81899FA-F0D7-4736-8B41-C54EB34A6922}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridSplitterDemo", "GridSplitterDemo\GridSplitterDemo.csproj", "{5404A95B-AA07-4C03-96DA-1C271A9D2D52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridSharedSizeGroupDemo", "GridSharedSizeGroupDemo\GridSharedSizeGroupDemo.csproj", "{97557AFF-0CB8-42DA-B59E-1243007734A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +23,14 @@ Global
 		{D81899FA-F0D7-4736-8B41-C54EB34A6922}.Debug|x86.Build.0 = Debug|x86
 		{D81899FA-F0D7-4736-8B41-C54EB34A6922}.Release|x86.ActiveCfg = Release|x86
 		{D81899FA-F0D7-4736-8B41-C54EB34A6922}.Release|x86.Build.0 = Release|x86
+		{5404A95B-AA07-4C03-96DA-1C271A9D2D52}.Debug|x86.ActiveCfg = Debug|x86
+		{5404A95B-AA07-4C03-96DA-1C271A9D2D52}.Debug|x86.Build.0 = Debug|x86
+		{5404A95B-AA07-4C03-96DA-1C271A9D2D52}.Release|x86.ActiveCfg = Release|x86
+		{5404A95B-AA07-4C03-96DA-1C271A9D2D52}.Release|x86.Build.0 = Release|x86
+		{97557AFF-0CB8-42DA-B59E-1243007734A1}.Debug|x86.ActiveCfg = Debug|x86
+		{97557AFF-0CB8-42DA-B59E-1243007734A1}.Debug|x86.Build.0 = Debug|x86
+		{97557AFF-0CB8-42DA-B59E-1243007734A1}.Release|x86.ActiveCfg = Release|x86
+		{97557AFF-0CB8-42DA-B59E-1243007734A1}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
