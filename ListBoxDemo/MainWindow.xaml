@@ -1,0 +1,78 @@
+﻿<Window x:Class="ListBoxDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="508" Width="525">
+    <StackPanel>
+        
+        <Expander Header="항목추가 방법1: ListBoxItem 요소 중첩">
+            <ListBox>
+                <ListBoxItem>Green</ListBoxItem>
+                <ListBoxItem>Blue</ListBoxItem>
+                <ListBoxItem>Yello</ListBoxItem>
+                <ListBoxItem>Red</ListBoxItem>
+            </ListBox>
+            
+        </Expander>
+        <Expander Header="항목추가 방법2: 이미지들로 구성된 리스트">
+            <ListBox>
+                <ListBoxItem>
+                    <Image Source="happyface.png" />
+                </ListBoxItem>
+                <ListBoxItem>
+                    <Image Source="happyface.png" />
+                </ListBoxItem>
+            </ListBox>
+
+        </Expander>
+        <Expander Header="항목추가 방법3: 중첩된 StackPanel개체를 사용한 텍스트,이미지 콘텐츠 결함">
+            <ListBox>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <Image Source="happyface.png" Height="50" />
+                    <Label VerticalContentAlignment="Center">A Happy face</Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <Image Source="redx.png" Height="50" />
+                    <Label VerticalContentAlignment="Center">A warning sign</Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <Image Source="happyface.png" Height="50" />
+                    <Label VerticalContentAlignment="Center">A Happy face</Label>
+                </StackPanel>
+            </ListBox>
+
+        </Expander>
+        <Expander Header="항목추가 방법4: 체크박스, 이벤트, 선택한 항목 모두 찾기">
+            <StackPanel>
+                <ListBox Name="lst" SelectionChanged="lst_SelectionChanged" SelectionMode="Multiple">
+                    <CheckBox Margin="3">Option 1</CheckBox>
+                    <CheckBox Margin="3">Option 2</CheckBox>
+                    <CheckBox Margin="3">Option 3</CheckBox>
+                </ListBox>
+                <TextBox Name="txtSelection" Margin="5" Height="60" Background="LightBlue"></TextBox>
+                <Button Name="cmd" Margin="5" Click="cmd_Click">Examine All Items</Button>
+                <Button Name="cmd2" Margin="5" Click="cmd2_Click">ContainerFromElement Test</Button>
+
+            </StackPanel>
+
+        </Expander>
+        <Expander Header="ListBox" IsExpanded="True">
+            <ListBox >
+                <ListBoxItem>ToolTip과 상속/파생관계가 아니지만, 비슷</ListBoxItem>
+                <ListBoxItem>하나의 컨텐츠를 포함할 수 있음</ListBoxItem>
+                <ListBoxItem>포함 컨텐츠는 Popup.Content가 아닌 Popup.Child에 저장</ListBoxItem>
+                <ListBoxItem>윈도우 경계를 넘을 수 있다.</ListBoxItem>
+                <ListBoxItem>배치 프로퍼티를 사용하여 배치할 수 있음</ListBoxItem>
+                <ListBoxItem>Placement : 툴팁을 어디로 배치할것인가(기본값 Mouse)</ListBoxItem>
+                <ListBoxItem>.IsOpen : 보이거나 숨김</ListBoxItem>
+                <ListBoxItem>.Name : 코드에서 Popup컨트롤을 조작할 수 있음</ListBoxItem>
+                <ListBoxItem>.IsMouseOver=true + .IsOpen=true -> 트리거 제작(12장)</ListBoxItem>
+
+            </ListBox>
+
+        </Expander>
+        <Label Height="20"></Label>
+        
+        <Label Height="20"></Label>
+
+    </StackPanel>
+</Window>
