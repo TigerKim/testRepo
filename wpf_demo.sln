@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventKeyboardInputDemo", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventMouseDemo", "EventMouseDemo\EventMouseDemo.csproj", "{EEE878DA-FB75-4630-935F-3FDCE7E3A307}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDragDropDemo", "EventDragDropDemo\EventDragDropDemo.csproj", "{D62F61BF-6857-4EDA-A16C-13DEFDFBC932}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -91,6 +93,10 @@ Global
 		{EEE878DA-FB75-4630-935F-3FDCE7E3A307}.Debug|x86.Build.0 = Debug|x86
 		{EEE878DA-FB75-4630-935F-3FDCE7E3A307}.Release|x86.ActiveCfg = Release|x86
 		{EEE878DA-FB75-4630-935F-3FDCE7E3A307}.Release|x86.Build.0 = Release|x86
+		{D62F61BF-6857-4EDA-A16C-13DEFDFBC932}.Debug|x86.ActiveCfg = Debug|x86
+		{D62F61BF-6857-4EDA-A16C-13DEFDFBC932}.Debug|x86.Build.0 = Debug|x86
+		{D62F61BF-6857-4EDA-A16C-13DEFDFBC932}.Release|x86.ActiveCfg = Release|x86
+		{D62F61BF-6857-4EDA-A16C-13DEFDFBC932}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
