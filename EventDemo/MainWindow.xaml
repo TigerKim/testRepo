@@ -1,0 +1,34 @@
+﻿<Window x:Class="EventDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="661" Width="423" MouseUp="SomethingClick">
+    <Grid Margin="3"  MouseUp="SomethingClick">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <Label Margin="5" Grid.Row="0" BorderThickness="1" 
+               BorderBrush="Black" Background="AliceBlue"
+               HorizontalAlignment="Center"
+               MouseUp="SomethingClick">
+            <StackPanel  MouseUp="SomethingClick">
+                <TextBlock Margin="3" MouseUp="SomethingClick">
+                    Image and text label
+                </TextBlock>
+                <Image Height="107" HorizontalAlignment="Center"  Name="image1" Stretch="Uniform"
+               Source="/EventDemo;component/happyface.png" Cursor="Hand" 
+                       MouseUp="SomethingClick" Width="134" />
+
+                <TextBlock Margin="3" MouseUp="SomethingClick">
+                    Courtesy of the StackPanel
+                </TextBlock>
+            </StackPanel>
+        </Label>
+        <ListBox Grid.Row="1" Margin="5" Name="lstMessage"></ListBox>
+        <CheckBox Grid.Row="2" Margin="5" Name="chkHandle">Handle first event</CheckBox>
+        <Button Grid.Row="3" Margin="5" Padding="3" HorizontalAlignment="Right"
+                Name="cmdClear" Click="cmdClear_Click">Clear List</Button>
+    </Grid>
+</Window>
