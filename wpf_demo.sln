@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorderDemo", "BorderDemo\Bo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewBoxDemo", "ViewBoxDemo\ViewBoxDemo.csproj", "{BDF3D9FF-5D96-4E29-9657-BE5A4DA68457}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyPropertyDemo", "DependencyPropertyDemo\DependencyPropertyDemo.csproj", "{F1030AA8-4687-40EA-A564-E9C5AB27465D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -61,6 +63,10 @@ Global
 		{BDF3D9FF-5D96-4E29-9657-BE5A4DA68457}.Debug|x86.Build.0 = Debug|x86
 		{BDF3D9FF-5D96-4E29-9657-BE5A4DA68457}.Release|x86.ActiveCfg = Release|x86
 		{BDF3D9FF-5D96-4E29-9657-BE5A4DA68457}.Release|x86.Build.0 = Release|x86
+		{F1030AA8-4687-40EA-A564-E9C5AB27465D}.Debug|x86.ActiveCfg = Debug|x86
+		{F1030AA8-4687-40EA-A564-E9C5AB27465D}.Debug|x86.Build.0 = Debug|x86
+		{F1030AA8-4687-40EA-A564-E9C5AB27465D}.Release|x86.ActiveCfg = Release|x86
+		{F1030AA8-4687-40EA-A564-E9C5AB27465D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
