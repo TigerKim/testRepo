@@ -11,3 +11,16 @@ C:\test_wpf\testRepo_20120711\ToolTipDemo\obj\x86\Debug\GenerateResource.read.1.
 C:\test_wpf\testRepo_20120711\ToolTipDemo\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\test_wpf\testRepo_20120711\ToolTipDemo\obj\x86\Debug\ToolTipDemo.exe
 C:\test_wpf\testRepo_20120711\ToolTipDemo\obj\x86\Debug\ToolTipDemo.pdb
+D:\test\wpf_demo\wpf_demo\ToolTipDemo\bin\Debug\ToolTipDemo.exe
+D:\test\wpf_demo\wpf_demo\ToolTipDemo\bin\Debug\ToolTipDemo.pdb
+D:\test\wpf_demo\wpf_demo\ToolTipDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\wpf_demo\ToolTipDemo\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\wpf_demo\ToolTipDemo\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\wpf_demo\ToolTipDemo\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\wpf_demo\ToolTipDemo\obj\x86\Debug\ToolTipDemo_MarkupCompile.cache
+D:\test\wpf_demo\wpf_demo\ToolTipDemo\obj\x86\Debug\ToolTipDemo.g.resources
+D:\test\wpf_demo\wpf_demo\ToolTipDemo\obj\x86\Debug\ToolTipDemo.Properties.Resources.resources
+D:\test\wpf_demo\wpf_demo\ToolTipDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\wpf_demo\ToolTipDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\wpf_demo\ToolTipDemo\obj\x86\Debug\ToolTipDemo.exe
+D:\test\wpf_demo\wpf_demo\ToolTipDemo\obj\x86\Debug\ToolTipDemo.pdb

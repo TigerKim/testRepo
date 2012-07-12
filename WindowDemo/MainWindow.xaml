@@ -1,0 +1,53 @@
+﻿<Window x:Class="WindowDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window 261page" Height="496" Width="575">
+    <StackPanel>
+
+        <Expander Header="윈도우 나타내기" Margin="10">
+            <ListBox>
+                <ListBoxItem>ShowDialog() 모달, 부모윈도우 접근금지, 마우스키보드 잠금</ListBoxItem>
+                <ListBoxItem>- 다른 코드는 실행될 수 있음</ListBoxItem>
+                <ListBoxItem>- 가끔 동기화 코드가 필요하기도 함</ListBoxItem>                
+                <ListBoxItem>- 예) 검색, 맞춤법 검사</ListBoxItem>
+                <ListBoxItem>Show() 모달리스</ListBoxItem>
+                <ListBoxItem>- 윈도우가 나타난 다음 바로 반환</ListBoxItem>
+                <ListBoxItem>- 예) 옵션 윈도우, 프린트 윈도우</ListBoxItem>
+                <ListBoxItem>Close()</ListBoxItem>
+                <ListBoxItem>Hide() 또는 .Visibility="Hidden"</ListBoxItem>
+                <ListBoxItem>- 모달에서 숨기면 사용자는 닫을수 없는 상황이 된다. (주의)</ListBoxItem>
+            </ListBox>
+        </Expander>
+        <StackPanel Orientation="Horizontal">
+            <Label>스크린 크기 알아내고, 화면 중앙으로 이동 : </Label>
+            <Button Name="ScreenSize" Click="ScreenSize_Click" Margin="5">방법1</Button>
+            <Button Name="ScreenSize2" Click="ScreenSize2_Click" Margin="5">방법2</Button>
+            <Button Name="ScreenSize3" Click="ScreenSize3_Click" Margin="5">방법3</Button>
+        </StackPanel>
+        <Expander Header="윈도우 위치 정하기" Margin="10">
+            <ListBox>
+                <ListBoxItem>.WindowStartupLocation="CenterOwner"</ListBoxItem>
+                <ListBoxItem>.WindowStartupLocation="Manual" => .Left, .Top으로 지정</ListBoxItem>
+                <ListBoxItem>System.Windows.SystemParameters</ListBoxItem>
+                <ListBoxItem>- 이용가능한 스크린의 실제 상태에 관한 기본적인 정보 제공</ListBoxItem>
+                <ListBoxItem>- .HotTracking</ListBoxItem>
+                <ListBoxItem>- .DragFullWindows</ListBoxItem>
+                <ListBoxItem>- .FullPrimaryScreenHeight, .FullPrimaryScreenWidth : 현재 스크린의 크기</ListBoxItem>               
+            </ListBox>
+        </Expander>
+        <StackPanel Orientation="Horizontal">
+            <Label>윈도우 위치, 크기 저장 (윈도우마다 각각 저장) :</Label>
+            <Button Name="PositionSave" Click="PositionSave_Click"  Margin="5">저장하기</Button>
+            <Button Name="PositionLoad" Click="PositionLoad_Click"  Margin="5">복구하기</Button>
+        </StackPanel>
+        <Expander Header="윈도우 위치 저장하고 복구하기" Margin="10">
+            <ListBox>
+                <ListBoxItem>구성파일 또는 레지스트리에 저장</ListBoxItem>
+                <ListBoxItem>1. 구성파일 : 솔루션탐색기 > 속성 > 설정 > "WindowPosition", System.Widows.Rect 항목추가</ListBoxItem>
+                <ListBoxItem>>Properties.Settings.Default.WindowPosition = this.RestoreBounds;</ListBoxItem>
+                <ListBoxItem>>Properties.Settings.Default.Save();</ListBoxItem>
+                <ListBoxItem>2. 레지스트리 (수많은 윈도우 위치 저장 268page</ListBoxItem>                
+            </ListBox>
+        </Expander>
+    </StackPanel>
+</Window>

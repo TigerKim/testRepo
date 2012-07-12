@@ -11,3 +11,16 @@ C:\test_wpf\testRepo_20120711\LabelDemo\obj\x86\Debug\GenerateResource.read.1.tl
 C:\test_wpf\testRepo_20120711\LabelDemo\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\test_wpf\testRepo_20120711\LabelDemo\obj\x86\Debug\LabelDemo.exe
 C:\test_wpf\testRepo_20120711\LabelDemo\obj\x86\Debug\LabelDemo.pdb
+D:\test\wpf_demo\wpf_demo\LabelDemo\bin\Debug\LabelDemo.exe
+D:\test\wpf_demo\wpf_demo\LabelDemo\bin\Debug\LabelDemo.pdb
+D:\test\wpf_demo\wpf_demo\LabelDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\wpf_demo\LabelDemo\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\wpf_demo\LabelDemo\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\wpf_demo\LabelDemo\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\wpf_demo\LabelDemo\obj\x86\Debug\LabelDemo_MarkupCompile.cache
+D:\test\wpf_demo\wpf_demo\LabelDemo\obj\x86\Debug\LabelDemo.g.resources
+D:\test\wpf_demo\wpf_demo\LabelDemo\obj\x86\Debug\LabelDemo.Properties.Resources.resources
+D:\test\wpf_demo\wpf_demo\LabelDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\wpf_demo\LabelDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\wpf_demo\LabelDemo\obj\x86\Debug\LabelDemo.exe
+D:\test\wpf_demo\wpf_demo\LabelDemo\obj\x86\Debug\LabelDemo.pdb

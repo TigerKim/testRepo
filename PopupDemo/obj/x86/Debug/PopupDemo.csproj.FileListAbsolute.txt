@@ -11,3 +11,16 @@ C:\test_wpf\testRepo_20120711\PopupDemo\bin\Debug\PopupDemo.exe
 C:\test_wpf\testRepo_20120711\PopupDemo\bin\Debug\PopupDemo.pdb
 C:\test_wpf\testRepo_20120711\PopupDemo\obj\x86\Debug\PopupDemo.exe
 C:\test_wpf\testRepo_20120711\PopupDemo\obj\x86\Debug\PopupDemo.pdb
+D:\test\wpf_demo\wpf_demo\PopupDemo\bin\Debug\PopupDemo.exe
+D:\test\wpf_demo\wpf_demo\PopupDemo\bin\Debug\PopupDemo.pdb
+D:\test\wpf_demo\wpf_demo\PopupDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\wpf_demo\PopupDemo\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\wpf_demo\PopupDemo\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\wpf_demo\PopupDemo\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\wpf_demo\PopupDemo\obj\x86\Debug\PopupDemo_MarkupCompile.cache
+D:\test\wpf_demo\wpf_demo\PopupDemo\obj\x86\Debug\PopupDemo.g.resources
+D:\test\wpf_demo\wpf_demo\PopupDemo\obj\x86\Debug\PopupDemo.Properties.Resources.resources
+D:\test\wpf_demo\wpf_demo\PopupDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\wpf_demo\PopupDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\wpf_demo\PopupDemo\obj\x86\Debug\PopupDemo.exe
+D:\test\wpf_demo\wpf_demo\PopupDemo\obj\x86\Debug\PopupDemo.pdb
