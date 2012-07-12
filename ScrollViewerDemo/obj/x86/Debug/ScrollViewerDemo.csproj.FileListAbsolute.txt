@@ -1,0 +1,13 @@
+C:\test_wpf\testRepo_20120711\ScrollViewerDemo\bin\Debug\ScrollViewerDemo.exe
+C:\test_wpf\testRepo_20120711\ScrollViewerDemo\bin\Debug\ScrollViewerDemo.pdb
+C:\test_wpf\testRepo_20120711\ScrollViewerDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\test_wpf\testRepo_20120711\ScrollViewerDemo\obj\x86\Debug\MainWindow.baml
+C:\test_wpf\testRepo_20120711\ScrollViewerDemo\obj\x86\Debug\MainWindow.g.cs
+C:\test_wpf\testRepo_20120711\ScrollViewerDemo\obj\x86\Debug\App.g.cs
+C:\test_wpf\testRepo_20120711\ScrollViewerDemo\obj\x86\Debug\ScrollViewerDemo_MarkupCompile.cache
+C:\test_wpf\testRepo_20120711\ScrollViewerDemo\obj\x86\Debug\ScrollViewerDemo.g.resources
+C:\test_wpf\testRepo_20120711\ScrollViewerDemo\obj\x86\Debug\ScrollViewerDemo.Properties.Resources.resources
+C:\test_wpf\testRepo_20120711\ScrollViewerDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\test_wpf\testRepo_20120711\ScrollViewerDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\test_wpf\testRepo_20120711\ScrollViewerDemo\obj\x86\Debug\ScrollViewerDemo.exe
+C:\test_wpf\testRepo_20120711\ScrollViewerDemo\obj\x86\Debug\ScrollViewerDemo.pdb

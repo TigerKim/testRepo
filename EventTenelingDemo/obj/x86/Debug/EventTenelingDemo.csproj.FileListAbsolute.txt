@@ -11,3 +11,16 @@ D:\test\wpf_demo\wpf_demo\EventTenelingDemo\obj\x86\Debug\GenerateResource.read.
 D:\test\wpf_demo\wpf_demo\EventTenelingDemo\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\test\wpf_demo\wpf_demo\EventTenelingDemo\obj\x86\Debug\EventTenelingDemo.exe
 D:\test\wpf_demo\wpf_demo\EventTenelingDemo\obj\x86\Debug\EventTenelingDemo.pdb
+C:\test_wpf\testRepo_20120711\EventTenelingDemo\bin\Debug\EventTenelingDemo.exe
+C:\test_wpf\testRepo_20120711\EventTenelingDemo\bin\Debug\EventTenelingDemo.pdb
+C:\test_wpf\testRepo_20120711\EventTenelingDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\test_wpf\testRepo_20120711\EventTenelingDemo\obj\x86\Debug\MainWindow.baml
+C:\test_wpf\testRepo_20120711\EventTenelingDemo\obj\x86\Debug\MainWindow.g.cs
+C:\test_wpf\testRepo_20120711\EventTenelingDemo\obj\x86\Debug\App.g.cs
+C:\test_wpf\testRepo_20120711\EventTenelingDemo\obj\x86\Debug\EventTenelingDemo_MarkupCompile.cache
+C:\test_wpf\testRepo_20120711\EventTenelingDemo\obj\x86\Debug\EventTenelingDemo.g.resources
+C:\test_wpf\testRepo_20120711\EventTenelingDemo\obj\x86\Debug\EventTenelingDemo.Properties.Resources.resources
+C:\test_wpf\testRepo_20120711\EventTenelingDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\test_wpf\testRepo_20120711\EventTenelingDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\test_wpf\testRepo_20120711\EventTenelingDemo\obj\x86\Debug\EventTenelingDemo.exe
+C:\test_wpf\testRepo_20120711\EventTenelingDemo\obj\x86\Debug\EventTenelingDemo.pdb

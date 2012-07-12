@@ -11,3 +11,16 @@ D:\test\wpf_demo\wpf_demo\EventMouseDemo\obj\x86\Debug\GenerateResource.read.1.t
 D:\test\wpf_demo\wpf_demo\EventMouseDemo\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\test\wpf_demo\wpf_demo\EventMouseDemo\obj\x86\Debug\EventMouseDemo.exe
 D:\test\wpf_demo\wpf_demo\EventMouseDemo\obj\x86\Debug\EventMouseDemo.pdb
+C:\test_wpf\testRepo_20120711\EventMouseDemo\bin\Debug\EventMouseDemo.exe
+C:\test_wpf\testRepo_20120711\EventMouseDemo\bin\Debug\EventMouseDemo.pdb
+C:\test_wpf\testRepo_20120711\EventMouseDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\test_wpf\testRepo_20120711\EventMouseDemo\obj\x86\Debug\MainWindow.baml
+C:\test_wpf\testRepo_20120711\EventMouseDemo\obj\x86\Debug\MainWindow.g.cs
+C:\test_wpf\testRepo_20120711\EventMouseDemo\obj\x86\Debug\App.g.cs
+C:\test_wpf\testRepo_20120711\EventMouseDemo\obj\x86\Debug\EventMouseDemo_MarkupCompile.cache
+C:\test_wpf\testRepo_20120711\EventMouseDemo\obj\x86\Debug\EventMouseDemo.g.resources
+C:\test_wpf\testRepo_20120711\EventMouseDemo\obj\x86\Debug\EventMouseDemo.Properties.Resources.resources
+C:\test_wpf\testRepo_20120711\EventMouseDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\test_wpf\testRepo_20120711\EventMouseDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\test_wpf\testRepo_20120711\EventMouseDemo\obj\x86\Debug\EventMouseDemo.exe
+C:\test_wpf\testRepo_20120711\EventMouseDemo\obj\x86\Debug\EventMouseDemo.pdb
