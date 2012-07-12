@@ -11,3 +11,16 @@ C:\test_wpf\testRepo_20120711\GridSplitterDemo\obj\x86\Debug\GenerateResource.re
 C:\test_wpf\testRepo_20120711\GridSplitterDemo\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\test_wpf\testRepo_20120711\GridSplitterDemo\obj\x86\Debug\GridSplitterDemo.exe
 C:\test_wpf\testRepo_20120711\GridSplitterDemo\obj\x86\Debug\GridSplitterDemo.pdb
+D:\test\wpf_demo\wpf_demo\GridSplitterDemo\bin\Debug\GridSplitterDemo.exe
+D:\test\wpf_demo\wpf_demo\GridSplitterDemo\bin\Debug\GridSplitterDemo.pdb
+D:\test\wpf_demo\wpf_demo\GridSplitterDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\wpf_demo\GridSplitterDemo\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\wpf_demo\GridSplitterDemo\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\wpf_demo\GridSplitterDemo\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\wpf_demo\GridSplitterDemo\obj\x86\Debug\GridSplitterDemo_MarkupCompile.cache
+D:\test\wpf_demo\wpf_demo\GridSplitterDemo\obj\x86\Debug\GridSplitterDemo.g.resources
+D:\test\wpf_demo\wpf_demo\GridSplitterDemo\obj\x86\Debug\GridSplitterDemo.Properties.Resources.resources
+D:\test\wpf_demo\wpf_demo\GridSplitterDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\wpf_demo\GridSplitterDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\wpf_demo\GridSplitterDemo\obj\x86\Debug\GridSplitterDemo.exe
+D:\test\wpf_demo\wpf_demo\GridSplitterDemo\obj\x86\Debug\GridSplitterDemo.pdb
