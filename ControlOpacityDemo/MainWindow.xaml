@@ -1,0 +1,43 @@
+﻿<Window x:Class="ControlOpacityDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="568" Width="541">
+    <StackPanel>
+        <StackPanel.Background>
+            <!--<ImageBrush ImageSource="/ControlOpacityDemo;component/celestrial.png" Opacity="0.3" />-->
+            <!--" ImageBrush ImageSource="celestrial.png" Opacity="0.3" /-->
+            <!--ImageBrush ImageSource="./celestrial.png" Opacity="0.3" /-->
+            <ImageBrush ImageSource="pack://application:,,,/ControlOpacityDemo;component/celestrial.png" Opacity="0.6" />
+            
+        </StackPanel.Background>
+        <Button Foreground="Wheat" FontSize="16"
+                Margin="10"
+                BorderBrush="White"
+                Background="#AAaa4030"
+                Padding="20">A Semi-Transparent Button</Button>
+        
+        <Label Margin="10"
+               Background="#AAAAAA00"
+               FontSize="18"
+               FontWeight="Bold"
+               Foreground="White">Some Label Text</Label>
+        <TextBox Margin="10" Background="#AAAAAAAA" Foreground="White"
+                 BorderBrush="White">A semi-transparent text box</TextBox>
+        <Button Margin="10" Padding="25" BorderBrush="White" Height="180">
+            <Button.Background>
+                <ImageBrush ImageSource="/ControlOpacityDemo;component/happyface.png" Opacity="0.8" 
+                            TileMode="Tile" Viewport="0,0,0.1,0.3"/>
+            </Button.Background>
+            
+        </Button>
+        <StackPanel>
+            <TextBlock Foreground="#75FF00FF"
+                       TextAlignment="Center"
+                       FontSize="30"
+                       FontWeight="Bold"
+                       TextWrapping="Wrap">
+                Semi-Transparent Layers
+            </TextBlock>
+        </StackPanel>
+    </StackPanel>
+</Window>
