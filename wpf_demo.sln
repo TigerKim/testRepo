@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisibilityDemo", "Visibilit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrollDemo", "ScrollDemo\ScrollDemo.csproj", "{2735E20B-31D0-40B6-9554-563CDB0DF380}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpanderDemo", "ExpanderDemo\ExpanderDemo.csproj", "{ACA20C51-C63B-461A-8AB8-4FEF4C5F1C14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -43,6 +45,10 @@ Global
 		{2735E20B-31D0-40B6-9554-563CDB0DF380}.Debug|x86.Build.0 = Debug|x86
 		{2735E20B-31D0-40B6-9554-563CDB0DF380}.Release|x86.ActiveCfg = Release|x86
 		{2735E20B-31D0-40B6-9554-563CDB0DF380}.Release|x86.Build.0 = Release|x86
+		{ACA20C51-C63B-461A-8AB8-4FEF4C5F1C14}.Debug|x86.ActiveCfg = Debug|x86
+		{ACA20C51-C63B-461A-8AB8-4FEF4C5F1C14}.Debug|x86.Build.0 = Debug|x86
+		{ACA20C51-C63B-461A-8AB8-4FEF4C5F1C14}.Release|x86.ActiveCfg = Release|x86
+		{ACA20C51-C63B-461A-8AB8-4FEF4C5F1C14}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

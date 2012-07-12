@@ -1,0 +1,24 @@
+﻿<Window x:Class="ExpanderDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    
+        <Expander Margin="5" Padding="5" Header="Region Two" Height="250">
+            <ScrollViewer Height="163" Width="461">
+                <TextBlock TextWrapping="Wrap">
+                    (655건)특정 분야의 예문만 보기
+                    [일반]His father's background as a pro-Japanese collaborator put fetters on his political career.(출처:능률교육)
+                    친일파였던 아버지의 이력이 그의 정치 경력에 족쇄가 되었다 
+                    [일반]I met the right collaborator.(출처:YBM)
+                    제게 딱 맞는 파트너를 만났거든요. 
+                    [일반]The leading collaborator of Professor Hwang Woo-suk has abruptly ended his cooperation with the pioneer
+                    of cloning over concerns that he might be engaged in ethical breaches of misconduct .(출처:타임즈코어)
+                    황 우 석박사의 주된 협력자가 윤리적인 위반행위에 관여되어 있단 우려 때문에 복제 선구자와의 협력을 돌연 끝냈다. 
+                    [일반]He was such a great collaborator.(출처:Fox News)
+                    [일반]He was a collector of people, a collaborator.(출처:Roger Ebert)
+
+                </TextBlock>
+            </ScrollViewer>
+        </Expander>
+    
+</Window>
