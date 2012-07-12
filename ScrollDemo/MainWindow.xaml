@@ -1,0 +1,69 @@
+﻿<Window x:Class="ScrollDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <ScrollViewer Name="scrollViewer1">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="10">
+                <Button Margin="5" Width="100" Name="LineUp" Click="LineUp_Click">Line Up</Button>
+                <Button Margin="5" Width="100" Name="LineDown" Click="LineDown_Click">Line Down</Button>
+                <Button Margin="5" Width="100" Name="PageUp" Click="PageUp_Click">Page up</Button>
+                <Button Margin="5" Width="100" Name="PageDown" Click="PageDown_Click">Page Down</Button>
+            </StackPanel>
+
+
+            <Grid Height="400"  Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0" Margin="5">HOME : </TextBlock>
+                <TextBlock Grid.Row="1" Margin="5">HOME :</TextBlock>
+                <TextBlock Grid.Row="2" Margin="5">HOME :</TextBlock>
+                <TextBlock Grid.Row="3" Margin="5">HOME :</TextBlock>
+                <TextBlock Grid.Row="4" Margin="5">HOME :</TextBlock>
+                <TextBlock Grid.Row="5" Margin="5">HOME :</TextBlock>
+                <TextBlock Grid.Row="6" Margin="5">HOME :</TextBlock>
+                <TextBlock Grid.Row="7" Margin="5">HOME :</TextBlock>
+                <TextBlock Grid.Row="8" Margin="5">HOME :</TextBlock>
+        
+                <TextBox Grid.Row="0" Grid.Column="1" Margin="5"></TextBox>
+                <TextBox Grid.Row="1" Grid.Column="1" Margin="5"></TextBox>
+                <TextBox Grid.Row="2" Grid.Column="1" Margin="5"></TextBox>
+                <TextBox Grid.Row="3" Grid.Column="1" Margin="5"></TextBox>
+                <TextBox Grid.Row="4" Grid.Column="1" Margin="5"></TextBox>
+                <TextBox Grid.Row="5" Grid.Column="1" Margin="5"></TextBox>
+                <TextBox Grid.Row="6" Grid.Column="1" Margin="5"></TextBox>
+                <TextBox Grid.Row="7" Grid.Column="1" Margin="5"></TextBox>
+                <TextBox Grid.Row="8" Grid.Column="1" Margin="5"></TextBox>
+                <Button Grid.Row="0" Grid.Column="2" Margin="5">Browse</Button>
+                <Button Grid.Row="1" Grid.Column="2" Margin="5">Browse</Button>
+                <Button Grid.Row="2" Grid.Column="2" Margin="5">Browse</Button>
+                <Button Grid.Row="3" Grid.Column="2" Margin="5">Browse</Button>
+                <Button Grid.Row="4" Grid.Column="2" Margin="5">Browse</Button>
+                <Button Grid.Row="5" Grid.Column="2" Margin="5">Browse</Button>
+                <Button Grid.Row="6" Grid.Column="2" Margin="5">Browse</Button>
+                <Button Grid.Row="7" Grid.Column="2" Margin="5">Browse</Button>
+                <Button Grid.Row="8" Grid.Column="2" Margin="5">Browse</Button>
+        
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+</Window>
