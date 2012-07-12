@@ -1,0 +1,13 @@
+D:\test\wpf_demo\wpf_demo\EventKeyboardInputDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\wpf_demo\EventKeyboardInputDemo\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\wpf_demo\EventKeyboardInputDemo\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\wpf_demo\EventKeyboardInputDemo\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\wpf_demo\EventKeyboardInputDemo\obj\x86\Debug\EventKeyboardInputDemo_MarkupCompile.cache
+D:\test\wpf_demo\wpf_demo\EventKeyboardInputDemo\obj\x86\Debug\EventKeyboardInputDemo.g.resources
+D:\test\wpf_demo\wpf_demo\EventKeyboardInputDemo\obj\x86\Debug\EventKeyboardInputDemo.Properties.Resources.resources
+D:\test\wpf_demo\wpf_demo\EventKeyboardInputDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\wpf_demo\EventKeyboardInputDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\wpf_demo\EventKeyboardInputDemo\bin\Debug\EventKeyboardInputDemo.exe
+D:\test\wpf_demo\wpf_demo\EventKeyboardInputDemo\bin\Debug\EventKeyboardInputDemo.pdb
+D:\test\wpf_demo\wpf_demo\EventKeyboardInputDemo\obj\x86\Debug\EventKeyboardInputDemo.exe
+D:\test\wpf_demo\wpf_demo\EventKeyboardInputDemo\obj\x86\Debug\EventKeyboardInputDemo.pdb
