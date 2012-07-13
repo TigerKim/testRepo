@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-D:\test\wpf_demo\wpf_demo\NavigationWindow\obj\x86\Debug\
+C:\test_wpf\testRepo_20120711\NavigationWindow\obj\x86\Debug\
 NavigationWindow
 none
 false
 DEBUG;TRACE
-D:\test\wpf_demo\wpf_demo\NavigationWindow\App.xaml
+C:\test_wpf\testRepo_20120711\NavigationWindow\App.xaml
 2-1501527567
 
-7-414079467
+71063712230
 12-1381780322
 Page1.xaml;Page2.xaml;
 

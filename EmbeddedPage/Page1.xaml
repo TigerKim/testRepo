@@ -1,0 +1,14 @@
+﻿<Window x:Class="EmbeddedPage.Page1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Page1" Height="247" Width="401">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Label Height="26" Margin="27,0,64,0">This page contains an embedded page in a frame</Label>
+        <Frame Grid.Row="1"  Source="Page2Em.xaml" JournalOwnership="OwnsJournal"
+               NavigationUIVisibility="Hidden" BorderThickness="1" BorderBrush="Blue" Margin="27,25,25,23"></Frame>
+    </Grid>
+</Window>
