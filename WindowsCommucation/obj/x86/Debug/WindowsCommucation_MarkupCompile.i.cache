@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\test_wpf\testRepo_20120711\WindowsCommucation\obj\x86\Debug\
+D:\test\wpf_demo\WindowsCommucation\obj\x86\Debug\
 WindowsCommucation
 none
 false
 DEBUG;TRACE
-C:\test_wpf\testRepo_20120711\WindowsCommucation\App.xaml
+D:\test\wpf_demo\WindowsCommucation\App.xaml
 4-772813915
 
-9-525947158
+9-2003738855
 12-1381780322
 DialogWindow.xaml;MainWindow.xaml;ToolWindow.xaml;ToolWindow2.xaml;
 

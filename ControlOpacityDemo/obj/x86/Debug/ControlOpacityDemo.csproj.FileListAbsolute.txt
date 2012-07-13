@@ -24,3 +24,16 @@ C:\test_wpf\testRepo_20120711\ControlOpacityDemo\obj\x86\Debug\GenerateResource.
 C:\test_wpf\testRepo_20120711\ControlOpacityDemo\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\test_wpf\testRepo_20120711\ControlOpacityDemo\obj\x86\Debug\ControlOpacityDemo.exe
 C:\test_wpf\testRepo_20120711\ControlOpacityDemo\obj\x86\Debug\ControlOpacityDemo.pdb
+D:\test\wpf_demo\ControlOpacityDemo\bin\Debug\ControlOpacityDemo.exe
+D:\test\wpf_demo\ControlOpacityDemo\bin\Debug\ControlOpacityDemo.pdb
+D:\test\wpf_demo\ControlOpacityDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\ControlOpacityDemo\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\ControlOpacityDemo\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\ControlOpacityDemo\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\ControlOpacityDemo\obj\x86\Debug\ControlOpacityDemo_MarkupCompile.cache
+D:\test\wpf_demo\ControlOpacityDemo\obj\x86\Debug\ControlOpacityDemo.g.resources
+D:\test\wpf_demo\ControlOpacityDemo\obj\x86\Debug\ControlOpacityDemo.Properties.Resources.resources
+D:\test\wpf_demo\ControlOpacityDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\ControlOpacityDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\ControlOpacityDemo\obj\x86\Debug\ControlOpacityDemo.exe
+D:\test\wpf_demo\ControlOpacityDemo\obj\x86\Debug\ControlOpacityDemo.pdb

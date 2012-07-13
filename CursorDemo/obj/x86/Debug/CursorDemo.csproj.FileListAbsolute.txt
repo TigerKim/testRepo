@@ -26,3 +26,17 @@ C:\test_wpf\testRepo_20120711\CursorDemo\obj\x86\Debug\CursorDemo.g.resources
 C:\test_wpf\testRepo_20120711\CursorDemo\obj\x86\Debug\CursorDemo.Properties.Resources.resources
 C:\test_wpf\testRepo_20120711\CursorDemo\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\test_wpf\testRepo_20120711\CursorDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\CursorDemo\bin\Debug\StopWatch.ani
+D:\test\wpf_demo\CursorDemo\bin\Debug\CursorDemo.exe
+D:\test\wpf_demo\CursorDemo\bin\Debug\CursorDemo.pdb
+D:\test\wpf_demo\CursorDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\CursorDemo\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\CursorDemo\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\CursorDemo\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\CursorDemo\obj\x86\Debug\CursorDemo_MarkupCompile.cache
+D:\test\wpf_demo\CursorDemo\obj\x86\Debug\CursorDemo.g.resources
+D:\test\wpf_demo\CursorDemo\obj\x86\Debug\CursorDemo.Properties.Resources.resources
+D:\test\wpf_demo\CursorDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\CursorDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\CursorDemo\obj\x86\Debug\CursorDemo.exe
+D:\test\wpf_demo\CursorDemo\obj\x86\Debug\CursorDemo.pdb

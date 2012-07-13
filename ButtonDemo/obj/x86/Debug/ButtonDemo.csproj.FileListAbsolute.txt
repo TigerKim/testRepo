@@ -24,3 +24,16 @@ D:\test\wpf_demo\wpf_demo\ButtonDemo\obj\x86\Debug\GenerateResource.read.1.tlog
 D:\test\wpf_demo\wpf_demo\ButtonDemo\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\test\wpf_demo\wpf_demo\ButtonDemo\obj\x86\Debug\ButtonDemo.exe
 D:\test\wpf_demo\wpf_demo\ButtonDemo\obj\x86\Debug\ButtonDemo.pdb
+D:\test\wpf_demo\ButtonDemo\bin\Debug\ButtonDemo.exe
+D:\test\wpf_demo\ButtonDemo\bin\Debug\ButtonDemo.pdb
+D:\test\wpf_demo\ButtonDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\ButtonDemo\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\ButtonDemo\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\ButtonDemo\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\ButtonDemo\obj\x86\Debug\ButtonDemo_MarkupCompile.cache
+D:\test\wpf_demo\ButtonDemo\obj\x86\Debug\ButtonDemo.g.resources
+D:\test\wpf_demo\ButtonDemo\obj\x86\Debug\ButtonDemo.Properties.Resources.resources
+D:\test\wpf_demo\ButtonDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\ButtonDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\ButtonDemo\obj\x86\Debug\ButtonDemo.exe
+D:\test\wpf_demo\ButtonDemo\obj\x86\Debug\ButtonDemo.pdb

@@ -11,3 +11,16 @@ C:\test_wpf\testRepo_20120711\NewCommand\obj\x86\Debug\GenerateResource.read.1.t
 C:\test_wpf\testRepo_20120711\NewCommand\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\test_wpf\testRepo_20120711\NewCommand\obj\x86\Debug\NewCommand.exe
 C:\test_wpf\testRepo_20120711\NewCommand\obj\x86\Debug\NewCommand.pdb
+D:\test\wpf_demo\NewCommand\bin\Debug\NewCommand.exe
+D:\test\wpf_demo\NewCommand\bin\Debug\NewCommand.pdb
+D:\test\wpf_demo\NewCommand\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\NewCommand\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\NewCommand\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\NewCommand\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\NewCommand\obj\x86\Debug\NewCommand_MarkupCompile.cache
+D:\test\wpf_demo\NewCommand\obj\x86\Debug\NewCommand.g.resources
+D:\test\wpf_demo\NewCommand\obj\x86\Debug\NewCommand.Properties.Resources.resources
+D:\test\wpf_demo\NewCommand\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\NewCommand\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\NewCommand\obj\x86\Debug\NewCommand.exe
+D:\test\wpf_demo\NewCommand\obj\x86\Debug\NewCommand.pdb

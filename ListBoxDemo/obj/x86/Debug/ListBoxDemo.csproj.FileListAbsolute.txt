@@ -24,3 +24,16 @@ D:\test\wpf_demo\wpf_demo\ListBoxDemo\obj\x86\Debug\ListBoxDemo.g.resources
 D:\test\wpf_demo\wpf_demo\ListBoxDemo\obj\x86\Debug\ListBoxDemo.Properties.Resources.resources
 D:\test\wpf_demo\wpf_demo\ListBoxDemo\obj\x86\Debug\GenerateResource.read.1.tlog
 D:\test\wpf_demo\wpf_demo\ListBoxDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\ListBoxDemo\bin\Debug\ListBoxDemo.exe
+D:\test\wpf_demo\ListBoxDemo\bin\Debug\ListBoxDemo.pdb
+D:\test\wpf_demo\ListBoxDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\ListBoxDemo\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\ListBoxDemo\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\ListBoxDemo\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\ListBoxDemo\obj\x86\Debug\ListBoxDemo_MarkupCompile.cache
+D:\test\wpf_demo\ListBoxDemo\obj\x86\Debug\ListBoxDemo.g.resources
+D:\test\wpf_demo\ListBoxDemo\obj\x86\Debug\ListBoxDemo.Properties.Resources.resources
+D:\test\wpf_demo\ListBoxDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\ListBoxDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\ListBoxDemo\obj\x86\Debug\ListBoxDemo.exe
+D:\test\wpf_demo\ListBoxDemo\obj\x86\Debug\ListBoxDemo.pdb
