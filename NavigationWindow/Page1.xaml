@@ -1,0 +1,77 @@
+﻿<Page x:Class="NavigationWindow.Page1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Page1" Height="657" Width="597" >
+    
+    <StackPanel  Name="stackPanel1" Margin="20">
+        <TextBlock Height="24" Name="textBlock1" Text="This is a sample page."  Margin="3" />
+        <Button Content="OK" Height="24" Name="button1"  Margin="5" />
+        <Button Content="Close" Height="24" Name="button2" Margin="5" />
+        <!-- 네비게이션윈도우-->
+        <Expander Header="네비게이션윈도우 293page" Margin="10">
+            <ListBox>
+                <ListBoxItem>NavigationWindow win = (NavigationWIndow) window.GetWindow(this);</ListBoxItem>
+                <ListBoxItem>- Page.Load이벤트 후에 동작함</ListBoxItem>
+                <ListBoxItem>- GetWindow() 사용를 피하라!!!=> 네비게이션 서비스 사용 (결함도 감소)</ListBoxItem>
+                <ListBoxItem>코드위주의 응용프로그램</ListBoxItem>
+                <ListBoxItem>- NavigationWindow win = new NavigationWindow(); win.Content = new Page1(); win.Show();</ListBoxItem>
+            </ListBox>
+        </Expander>
+        <!-- page -->
+        <Expander Header="Page 295page" Margin="10">
+            <ListBox>
+                <ListBoxItem>중첩된 요소를 하나만 허용</ListBoxItem>
+                <ListBoxItem>ContentControl 아니다</ListBoxItem>
+                <ListBoxItem>FrameworkElement클래스에서 직접 파생</ListBoxItem>
+                <ListBoxItem>WIndow 클래스보다 간단하고 능률적</ListBoxItem>
+                <ListBoxItem>1) 외형을 커스텀화해주는 프로퍼터</ListBoxItem>
+                <ListBoxItem>2) 제한된방식으로 컨테이너와 상호작용할 수 있도록 해주는 프로퍼티</ListBoxItem>
+                <ListBoxItem>3) 네비게이션을 사용할 수 있도록 해주는 프로퍼티</ListBoxItem>
+                <ListBoxItem>Hide(), Show() 없음 => 다른페이지를 사용하고 싶다면 네비게이션 사용</ListBoxItem>
+                
+            </ListBox>
+        </Expander>
+        <!-- HyperLink -->
+        <Expander Header="HyperLink 296page" Margin="10">
+            <ListBox>
+                <ListBoxItem>페이지 이동</ListBoxItem>
+                <ListBoxItem>inline flow element</ListBoxItem>
+                <ListBoxItem>반드시 인라인플로우요소를 지원하는 다른 요소안에 배치</ListBoxItem>
+                <ListBoxItem>클릭 구현방법1 : click 이벤트</ListBoxItem>
+                <ListBoxItem>클릭 구현방법2 : Hyperlink NavigateUri 이용</ListBoxItem>
+                <ListBoxItem>※ 윈도우기반에서 새윈도우를 열고싶을때 RequestNavigation 이벤트를 처리</ListBoxItem>
+                <ListBoxItem>Page.ShowsNavigationUI=false 앞뒤버튼이 사라짐</ListBoxItem>
+                <ListBoxItem>웹사이트 접속 오류 방지 </ListBoxItem>
+                <ListBoxItem>: Application.DispatcherUnhandlerdException 이벤트, Appliction.NavigationFailed 이벤트</ListBoxItem>
+                <ListBoxItem>사용자가 외부 웹사이트 특정페이지로 이동하는 것을 막을 수 없다.</ListBoxItem>
+                <ListBoxItem>HTML DOM을 사용하여 상호 작용할 수 없다.(WebBrowser 컨트롤을 통해 가능)</ListBoxItem>
+                <ListBoxItem>Windows Forms 상호 운용성 : 25장</ListBoxItem>
+            </ListBox>
+        </Expander>
+        <StackPanel Orientation="Vertical" Margin="10">
+            <Label>하이퍼링크 : 다른 페이지로 이동</Label>
+            <TextBlock Margin="3" TextWrapping="Wrap">This is a simple page.Click 
+                <Hyperlink NavigateUri="Page2.xaml">here</Hyperlink> to go to Page 2.</TextBlock>
+            <Label>하이퍼링크 : 웹페이지로 이동하기</Label>
+            <TextBlock Margin="3" TextWrapping="Wrap">Visit the website
+                <Hyperlink NavigateUri="http://www.google.com" >www.google.com</Hyperlink></TextBlock>
+        </StackPanel>
+        <!-- fragment navigation -->
+        <Expander Header="fragment navigation  298page" Margin="10">
+            <ListBox>
+                <ListBoxItem>#부호를 NavigationUri 프로퍼티 끝에 추가</ListBoxItem>
+                <ListBoxItem>그 다음에 요소의 이름을 적으면 페이지의 특정컨트롤로 곧바로 이동</ListBoxItem>
+                <ListBoxItem>타겟페이지의 스크롤 가능한 경우에만 동작</ListBoxItem>
+                <ListBoxItem>(ScrollViewer컨트롤, 또는 웹브라우저에서 호스팅된 경우)</ListBoxItem>
+                <ListBoxItem>포커스는 받지 않는다.</ListBoxItem>
+                
+            </ListBox>
+        </Expander>
+        <StackPanel Orientation="Vertical" Margin="10">
+            <Label>프래그먼트 내비게이션 : 다른 페이지의 특정컨트롤로 이동(page2에 ScrollViewer컨트롤 필요)</Label>
+            <TextBlock Margin="3" TextWrapping="Wrap">Review the
+                <Hyperlink NavigateUri="Page2.xaml#myTextBox" >full text</Hyperlink></TextBlock>
+        </StackPanel>
+    </StackPanel>
+    
+</Page>

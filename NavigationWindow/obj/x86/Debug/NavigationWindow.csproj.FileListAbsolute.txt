@@ -1,0 +1,15 @@
+D:\test\wpf_demo\wpf_demo\NavigationWindow\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\wpf_demo\NavigationWindow\obj\x86\Debug\Page1.baml
+D:\test\wpf_demo\wpf_demo\NavigationWindow\obj\x86\Debug\Page1.g.cs
+D:\test\wpf_demo\wpf_demo\NavigationWindow\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\wpf_demo\NavigationWindow\obj\x86\Debug\NavigationWindow_MarkupCompile.cache
+D:\test\wpf_demo\wpf_demo\NavigationWindow\obj\x86\Debug\NavigationWindow.g.resources
+D:\test\wpf_demo\wpf_demo\NavigationWindow\obj\x86\Debug\NavigationWindow.Properties.Resources.resources
+D:\test\wpf_demo\wpf_demo\NavigationWindow\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\wpf_demo\NavigationWindow\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\wpf_demo\NavigationWindow\bin\Debug\NavigationWindow.exe
+D:\test\wpf_demo\wpf_demo\NavigationWindow\bin\Debug\NavigationWindow.pdb
+D:\test\wpf_demo\wpf_demo\NavigationWindow\obj\x86\Debug\NavigationWindow.exe
+D:\test\wpf_demo\wpf_demo\NavigationWindow\obj\x86\Debug\NavigationWindow.pdb
+D:\test\wpf_demo\wpf_demo\NavigationWindow\obj\x86\Debug\Page2.baml
+D:\test\wpf_demo\wpf_demo\NavigationWindow\obj\x86\Debug\Page2.g.cs
