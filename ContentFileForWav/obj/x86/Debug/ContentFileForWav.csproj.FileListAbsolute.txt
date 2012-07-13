@@ -1,0 +1,14 @@
+D:\test\wpf_demo\ContentFileForWav\bin\Debug\ContentFileForWav.exe
+D:\test\wpf_demo\ContentFileForWav\bin\Debug\ContentFileForWav.pdb
+D:\test\wpf_demo\ContentFileForWav\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\ContentFileForWav\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\ContentFileForWav\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\ContentFileForWav\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\ContentFileForWav\obj\x86\Debug\ContentFileForWav_MarkupCompile.cache
+D:\test\wpf_demo\ContentFileForWav\obj\x86\Debug\ContentFileForWav.g.resources
+D:\test\wpf_demo\ContentFileForWav\obj\x86\Debug\ContentFileForWav.Properties.Resources.resources
+D:\test\wpf_demo\ContentFileForWav\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\ContentFileForWav\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\ContentFileForWav\obj\x86\Debug\ContentFileForWav.exe
+D:\test\wpf_demo\ContentFileForWav\obj\x86\Debug\ContentFileForWav.pdb
+D:\test\wpf_demo\ContentFileForWav\obj\x86\Debug\ContentFileForWav_Content.g.cs

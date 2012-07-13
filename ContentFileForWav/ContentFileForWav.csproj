@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{BB02F9D9-0238-45D5-BE23-4D019D899F0F}</ProjectGuid>
+    <ProjectGuid>{AAA62FFF-E5BC-49D1-B178-A23CA7C416D6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AssemblyResourceDemo</RootNamespace>
-    <AssemblyName>AssemblyResourceDemo</AssemblyName>
+    <RootNamespace>ContentFileForWav</RootNamespace>
+    <AssemblyName>ContentFileForWav</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -93,14 +93,10 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Sounds\ding.wav" />
-    <Resource Include="Sounds\start.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\blue hills.png" />
-    <Resource Include="Images\sunset.png" />
-    <Resource Include="Images\water lines.png" />
-    <Resource Include="Images\winter.png" />
+    <Content Include="Sounds\ding.wav" />
+    <Resource Include="Sounds\start.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

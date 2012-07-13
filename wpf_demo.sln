@@ -99,6 +99,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11장 리소스", "11장 �
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyResourceDemo", "AssemblyResourceDemo\AssemblyResourceDemo.csproj", "{BB02F9D9-0238-45D5-BE23-4D019D899F0F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "다른 어셈블리에 있는 리소스 374page", "다른 어셈블리에 있는 리소스 374page", "{63E03D8C-5078-4760-A68A-FA7531C1E87F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentFileForWav", "ContentFileForWav\ContentFileForWav.csproj", "{AAA62FFF-E5BC-49D1-B178-A23CA7C416D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -233,6 +237,10 @@ Global
 		{BB02F9D9-0238-45D5-BE23-4D019D899F0F}.Debug|x86.Build.0 = Debug|x86
 		{BB02F9D9-0238-45D5-BE23-4D019D899F0F}.Release|x86.ActiveCfg = Release|x86
 		{BB02F9D9-0238-45D5-BE23-4D019D899F0F}.Release|x86.Build.0 = Release|x86
+		{AAA62FFF-E5BC-49D1-B178-A23CA7C416D6}.Debug|x86.ActiveCfg = Debug|x86
+		{AAA62FFF-E5BC-49D1-B178-A23CA7C416D6}.Debug|x86.Build.0 = Debug|x86
+		{AAA62FFF-E5BC-49D1-B178-A23CA7C416D6}.Release|x86.ActiveCfg = Release|x86
+		{AAA62FFF-E5BC-49D1-B178-A23CA7C416D6}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -278,5 +286,7 @@ Global
 		{70718284-4EA4-4E50-9126-88304C81C61E} = {BC2F2101-7449-4736-B231-6765F4B1881C}
 		{407B61E5-4A9D-4DD3-A68C-72DECF8C72D3} = {BC2F2101-7449-4736-B231-6765F4B1881C}
 		{BB02F9D9-0238-45D5-BE23-4D019D899F0F} = {0093A54B-F856-43F9-BCFC-DC7C0AFE1D49}
+		{63E03D8C-5078-4760-A68A-FA7531C1E87F} = {0093A54B-F856-43F9-BCFC-DC7C0AFE1D49}
+		{AAA62FFF-E5BC-49D1-B178-A23CA7C416D6} = {0093A54B-F856-43F9-BCFC-DC7C0AFE1D49}
 	EndGlobalSection
 EndGlobal

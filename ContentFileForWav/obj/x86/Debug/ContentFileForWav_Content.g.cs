@@ -9,6 +9,5 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/ding.wav")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sounds/start.wav")]
 
 

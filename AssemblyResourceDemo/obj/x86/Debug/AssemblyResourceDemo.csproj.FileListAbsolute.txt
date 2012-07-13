@@ -4,7 +4,6 @@ D:\test\wpf_demo\AssemblyResourceDemo\obj\x86\Debug\ResolveAssemblyReference.cac
 D:\test\wpf_demo\AssemblyResourceDemo\obj\x86\Debug\MainWindow.baml
 D:\test\wpf_demo\AssemblyResourceDemo\obj\x86\Debug\MainWindow.g.cs
 D:\test\wpf_demo\AssemblyResourceDemo\obj\x86\Debug\App.g.cs
-D:\test\wpf_demo\AssemblyResourceDemo\obj\x86\Debug\AssemblyResourceDemo_Content.g.cs
 D:\test\wpf_demo\AssemblyResourceDemo\obj\x86\Debug\AssemblyResourceDemo_MarkupCompile.cache
 D:\test\wpf_demo\AssemblyResourceDemo\obj\x86\Debug\AssemblyResourceDemo.g.resources
 D:\test\wpf_demo\AssemblyResourceDemo\obj\x86\Debug\AssemblyResourceDemo.Properties.Resources.resources
