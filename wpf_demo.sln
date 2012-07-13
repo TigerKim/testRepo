@@ -59,6 +59,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8장 윈도우", "8장 윈�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowDemo", "WindowDemo\WindowDemo.csproj", "{70FFF42D-E6B2-482A-972D-8B0848AAB438}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsCommucation", "WindowsCommucation\WindowsCommucation.csproj", "{B59AB77B-62D4-4669-A36F-A794D1EA1D61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -157,6 +159,10 @@ Global
 		{70FFF42D-E6B2-482A-972D-8B0848AAB438}.Debug|x86.Build.0 = Debug|x86
 		{70FFF42D-E6B2-482A-972D-8B0848AAB438}.Release|x86.ActiveCfg = Release|x86
 		{70FFF42D-E6B2-482A-972D-8B0848AAB438}.Release|x86.Build.0 = Release|x86
+		{B59AB77B-62D4-4669-A36F-A794D1EA1D61}.Debug|x86.ActiveCfg = Debug|x86
+		{B59AB77B-62D4-4669-A36F-A794D1EA1D61}.Debug|x86.Build.0 = Debug|x86
+		{B59AB77B-62D4-4669-A36F-A794D1EA1D61}.Release|x86.ActiveCfg = Release|x86
+		{B59AB77B-62D4-4669-A36F-A794D1EA1D61}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -185,5 +191,6 @@ Global
 		{1ABCEF93-E386-4832-BA22-2A1BA6DAFCAD} = {6F1492EA-66D0-4EE7-8C12-BDFE6BC4CCEE}
 		{D81899FA-F0D7-4736-8B41-C54EB34A6922} = {6F1492EA-66D0-4EE7-8C12-BDFE6BC4CCEE}
 		{70FFF42D-E6B2-482A-972D-8B0848AAB438} = {2BA6EB6A-86F4-457A-BA1D-4936B630B231}
+		{B59AB77B-62D4-4669-A36F-A794D1EA1D61} = {2BA6EB6A-86F4-457A-BA1D-4936B630B231}
 	EndGlobalSection
 EndGlobal

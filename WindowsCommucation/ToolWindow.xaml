@@ -1,0 +1,8 @@
+﻿<Window x:Class="WindowsCommucation.ToolWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ToolWindow" Height="265" Width="276">
+    <Grid>
+        <Button Content="다른 윈도우 열기" Margin="12,12,12,0" Name="OwnerWindow" Click="OwnerWindow_Click" Height="62" VerticalAlignment="Top" />
+    </Grid>
+</Window>

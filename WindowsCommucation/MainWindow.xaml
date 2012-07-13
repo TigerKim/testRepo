@@ -1,0 +1,93 @@
+﻿<Window x:Class="WindowsCommucation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="윈도우간 상호작용 269page" Height="591" Width="581">
+    <StackPanel>
+        <!-- 윈도우간 상호작용-->       
+        <Expander Header="윈도우간 상호작용" Margin="10">
+            <ListBox>
+                <ListBoxItem>.MainWindow와 .Windows 프로퍼티로 접근</ListBoxItem>
+                <ListBoxItem>public 메서드를 갖는 인터페이스타입을 만든 다음 윈도우 클래스에서 이 인터페이스를 구현1</ListBoxItem>
+                <ListBoxItem>1. 단일 윈도우간의 상호작용</ListBoxItem>
+                <ListBoxItem>- Button Event Handler(Window Class)</ListBoxItem>
+                <ListBoxItem>- Custom DoUpdate() Method(Window Class)</ListBoxItem>
+                <ListBoxItem>2. 하나 이상의 윈도우들 간의 상호작용</ListBoxItem>
+                <ListBoxItem>- Button Event Handler(Window Class)</ListBoxItem>
+                <ListBoxItem>- Custom UpdateAll() Method(Application Class</ListBoxItem>
+                <ListBoxItem>- Custom DoUpdate() Method(Window Class)</ListBoxItem>
+                <ListBoxItem>* Window.Activate() : 원하는 윈도우를 활성화</ListBoxItem>
+                <ListBoxItem>* Window.IsActive : 어느 윈도우가 활성화 되었는지 검사</ListBoxItem>
+                <ListBoxItem>3. 이벤트를 발생시켜 다른 윈도우가 이벤트에 대응(결합도 감소)</ListBoxItem>
+                <ListBoxItem>* command를 통한 추상화 (10장)</ListBoxItem>
+                <ListBoxItem>* 대화모델(dialog model) vs 윈도우소유권(ownership)</ListBoxItem>
+
+            </ListBox>
+        </Expander>
+        
+        <!-- 윈도우 소유권-->
+        <Expander Header="윈도우 소유권" Margin="10">
+            <ListBox>
+                <ListBoxItem>예) 플로우 윈도우, 명령윈도우, 찾기/바꾸기 윈도우</ListBoxItem>
+                <ListBoxItem>소유 윈도우가 최소화되면(닫으면) 소유된 윈도우도 자동으로 최소화(닫힘)</ListBoxItem>
+                <ListBoxItem>소유자와 겹치면 -> 소유된 윈도우가 항상 위로</ListBoxItem>
+                <ListBoxItem>.Owner : 현재 윈도우를 소유하는 윈도우를 가리키는 참조</ListBoxItem>
+                <ListBoxItem>.OwnerWindows : 현재 윈도우가 소유하는 모둔 윈도우 컬렉션</ListBoxItem>
+                <ListBoxItem>모든 소유된 윈도우는 모달리스 방식</ListBoxItem>
+                <ListBoxItem>소유된 윈도우 제거 : .Owner = null</ListBoxItem>
+                <ListBoxItem>소유된 윈도우는 다른 윈도우 소유 가능(비효율적)</ListBoxItem>
+                <ListBoxItem>서로가 소유할 수 없다.</ListBoxItem>
+            </ListBox>
+        </Expander>
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <Label>윈도우 소유권 예 :</Label>
+            <Button Name="OwnerWindow" Click="OwnerWindow_Click" Margin="5">방법1</Button>
+            
+        </StackPanel>
+        
+        <!-- 대화 모델-->
+        <Expander Header="대화 모델" Margin="10">
+            <ListBox>
+                <ListBoxItem>예) 대화상자</ListBoxItem>
+                <ListBoxItem>대화상자 윈도우의 public 프로퍼티를 검사</ListBoxItem>
+                <ListBoxItem>대화상자 닫히더라도 윈도우 개체와 이안에 있는 모든 컨트롤 정보는 여전히 존재</ListBoxItem>
+                <ListBoxItem>- 단, 윈도우 개체를 참조하는 변수가 범위를 벗어나기 전까지</ListBoxItem>
+                <ListBoxItem>Window 클래스에 기반함</ListBoxItem>
+                <ListBoxItem>.DialogResult : true, false, null</ListBoxItem>
+                <ListBoxItem>.IsDefault=true + accepted button</ListBoxItem>
+                <ListBoxItem>.IsCancel=true </ListBoxItem>
+                <ListBoxItem>WPF 대화모델은 WIndows Forms와 다르다</ListBoxItem>
+
+            </ListBox>
+        </Expander>
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <Label>대화모델 예 :</Label>
+            <Button Name="DialogWindow" Click="DialogWindow_Click" Margin="5">방법1</Button>
+        </StackPanel>
+        
+        <!-- 공통 대화 상자-->
+        <Expander Header="공통 대화 상자" Margin="10">
+            <ListBox>
+                <ListBoxItem>Windows API로 접근</ListBoxItem>
+                <ListBoxItem>- Windows API와의 결함도를 줄여라!!! (환경, 플랫폼 독립성 때문)</ListBoxItem>
+                <ListBoxItem>- 테스트 기반의 페인(pane)이나 내비게이션을 사용할 것을 권장</ListBoxItem>
+                <ListBoxItem>System.Windows.MessageBox</ListBoxItem>
+                <ListBoxItem>PrintDialog 클래스(20장)</ListBoxItem>
+                <ListBoxItem>Microsoft.Win32 namespace</ListBoxItem>
+                <ListBoxItem>FileDialog class</ListBoxItem>
+                <ListBoxItem>- OpenFileDialog class </ListBoxItem>
+                <ListBoxItem>-- .CheckFileExists</ListBoxItem>
+                <ListBoxItem>- SaveFileDialog class </ListBoxItem>
+                <ListBoxItem>.NET2.0 System.Windows.Forms 구성요소 얻으면</ListBoxItem>
+                <ListBoxItem>- 색상선택기(color picker)</ListBoxItem>
+                <ListBoxItem>- 폰트선택기(font picker)</ListBoxItem>
+                <ListBoxItem>- 폴더 브라우저</ListBoxItem>
+            </ListBox>
+        </Expander>
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <Label>공통 대화 상자 예 :</Label>
+            <Button Name="OpenFileDialog" Click="OpenFileDialog_Click" Margin="5">OpenFileDialog</Button>
+            <ListBox Width="300" Name="lstFiles"></ListBox>
+        </StackPanel>
+
+    </StackPanel>
+</Window>
