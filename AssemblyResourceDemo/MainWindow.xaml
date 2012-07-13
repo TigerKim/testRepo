@@ -1,0 +1,31 @@
+﻿<Window x:Class="AssemblyResourceDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="리소스 추가하기 370page" Height="598" Width="673">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0"  Name="winter" Click="winter_Click" VerticalAlignment="Top" Margin="10,10,10,0">
+            1. StreamResourceInfo ==> image/winter.png</Button>
+        <Button Grid.Row="1" Name="winter2" Click="winter2_Click"  VerticalAlignment="Top" Margin="10,10,10,0">
+            2. ResourceManager로 얻기==> image/winter.png</Button>
+        <Button Grid.Row="2" Name="showassembly" VerticalAlignment="Top" Margin="10,10,10,0" Click="showassembly_Click">
+            3. 어셈블리 내용보여주기</Button>
+        <ListBox Grid.Row="3" Height="120" Name="lstAssembly" Margin="10">
+            <ListBoxItem></ListBoxItem>
+        </ListBox>
+        <!--Image Grid.Row="4" Source="/AssemblyResourceDemo;component/Images/blue%20hills.png"></Image-->
+        <StackPanel Grid.Row="4" Orientation="Horizontal">
+            <Image Source="Images/blue%20hills.png" Width="200"></Image>
+            <Image Name="img" Width="200"></Image>
+            <Button Name="img_loader" Click="img_loader_Click" Width="80">절대경로</Button>
+            <Button Name="img_loader2" Click="img_loader2_Click" Width="80">상대경로</Button>
+            <Button Name="img_loader3" Click="img_loader3_Click" Width="80">pack</Button>
+        </StackPanel>
+    </Grid>
+</Window>
