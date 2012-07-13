@@ -1,0 +1,19 @@
+﻿<Page x:Class="PageHosting.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="266" d:DesignWidth="398"
+	Title="Page1">
+
+    <StackPanel Orientation="Vertical" Margin="10">
+        <Label>하이퍼링크 : 다른 페이지로 이동</Label>
+        <TextBlock Margin="3" TextWrapping="Wrap">This is a simple page.Click 
+                <Hyperlink NavigateUri="Page2.xaml">here</Hyperlink> to go to Page 2.</TextBlock>
+        <Label Height="50"></Label>
+        <Label>하이퍼링크 : 웹페이지로 이동하기</Label>
+        <TextBlock Margin="3" TextWrapping="Wrap">Visit the website
+                <Hyperlink NavigateUri="http://www.google.com" >www.google.com</Hyperlink></TextBlock>
+    </StackPanel>
+</Page>

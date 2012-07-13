@@ -69,6 +69,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9장 Page와 Navigation", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationWindow", "NavigationWindow\NavigationWindow.csproj", "{38EF353B-1152-455E-A4F4-A9766D7A7061}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageHosting", "PageHosting\PageHosting.csproj", "{0B992ADD-15F4-4D9F-8C61-916084427B62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -175,6 +177,10 @@ Global
 		{38EF353B-1152-455E-A4F4-A9766D7A7061}.Debug|x86.Build.0 = Debug|x86
 		{38EF353B-1152-455E-A4F4-A9766D7A7061}.Release|x86.ActiveCfg = Release|x86
 		{38EF353B-1152-455E-A4F4-A9766D7A7061}.Release|x86.Build.0 = Release|x86
+		{0B992ADD-15F4-4D9F-8C61-916084427B62}.Debug|x86.ActiveCfg = Debug|x86
+		{0B992ADD-15F4-4D9F-8C61-916084427B62}.Debug|x86.Build.0 = Debug|x86
+		{0B992ADD-15F4-4D9F-8C61-916084427B62}.Release|x86.ActiveCfg = Release|x86
+		{0B992ADD-15F4-4D9F-8C61-916084427B62}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -207,5 +213,6 @@ Global
 		{CF3C323A-D920-4168-BF0D-C030ADE8CC68} = {2BA6EB6A-86F4-457A-BA1D-4936B630B231}
 		{4A66711B-D1FC-450D-A245-722542CA32E0} = {2BA6EB6A-86F4-457A-BA1D-4936B630B231}
 		{38EF353B-1152-455E-A4F4-A9766D7A7061} = {26240E4E-BA42-4C69-ACEB-72F39784008A}
+		{0B992ADD-15F4-4D9F-8C61-916084427B62} = {26240E4E-BA42-4C69-ACEB-72F39784008A}
 	EndGlobalSection
 EndGlobal
