@@ -1,0 +1,89 @@
+﻿<Window x:Class="ObjectResource.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="개체 리소스 Object Resource 385page" Height="600" Width="623">
+    <Window.Resources>
+        <ImageBrush x:Key="TileBrush" TileMode="Tile" ViewportUnits="Absolute"
+                    Viewport="0 0 32 32" ImageSource="happyface.png" Opacity="0.3" />
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <Label  HorizontalAlignment="Left" Name="label1" VerticalAlignment="Top" >
+                Resource Collection
+            </Label>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <Button Margin="10" Padding="20" 
+                    Background="{StaticResource TileBrush}"
+                    FontWeight="Bold"
+                    FontSize="16"
+                    >                
+                A Tiled Button
+            </Button>
+            <Button Margin="10" Padding="20" 
+                    Background="{DynamicResource TileBrush}"
+                    FontWeight="Bold"
+                    FontSize="16"
+                    >
+                A Tiled Button
+            </Button>
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <Label  HorizontalAlignment="Left" Name="label2" VerticalAlignment="Top" >
+                리소스 계층
+            </Label>
+        </StackPanel>
+        <StackPanel Grid.Row="3">
+            <Button Margin="10" Padding="20" 
+                    Background="{StaticResource TileBrush}"
+                    FontWeight="Bold"
+                    FontSize="16"
+                    >
+                선행 리소스인 윈도우 리소스를 참조함, 버튼리소스 없음(StaticResource)
+            </Button>
+            <Button Margin="10" Padding="20" 
+                    Background="{StaticResource TileBrush}"
+                    FontWeight="Bold"
+                    FontSize="16"
+                    >
+                <Button.Resources>
+                    <ImageBrush x:Key="TileBrush" TileMode="Tile" ViewportUnits="Absolute"
+                        Viewport="0 0 32 32" ImageSource="redx.png" Opacity="0.3" />
+                </Button.Resources>
+                <Button.Content>버튼리소스가 있어도 선행리소스인 윈도우 리소스 참조
+                    (StaticResource)</Button.Content>
+            </Button>
+            <Button Margin="10" Padding="20" 
+                    Background="{DynamicResource TileBrush}"
+                    FontWeight="Bold"
+                    FontSize="16"
+                    >
+                <Button.Resources>
+                    <ImageBrush x:Key="TileBrush" TileMode="Tile" ViewportUnits="Absolute"
+                        Viewport="0 0 32 32" ImageSource="redx.png" Opacity="0.3" />
+                </Button.Resources>
+                <Button.Content>후행인 버튼리소스를 사용하려면 Dynamic 사용(DynamicResource)</Button.Content>
+            </Button>
+            <Button Margin="10" Padding="20" 
+                    
+                    FontWeight="Bold"
+                    FontSize="16">
+                <Button.Resources>
+                    <ImageBrush x:Key="TileBrush" TileMode="Tile" ViewportUnits="Absolute"
+                        Viewport="0 0 32 32" ImageSource="redx.png" Opacity="0.3" />
+                </Button.Resources>
+                <!--Button.Background>
+                    <StaticResource ResourceKey="{StaticResource TileBrush}" />
+                </Button.Background-->
+                <Button.Content>후행을 Static으로 연결하려면(StaticResource) ==> 태그 오류</Button.Content>
+            </Button>
+            
+        </StackPanel>
+    </Grid>
+</Window>
