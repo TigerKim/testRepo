@@ -1,0 +1,116 @@
+﻿<Window x:Class="ShapeDemo1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Retangle,Ellipse,Line,Polyline,Polygon 422page" Height="694" Width="525">
+    <ScrollViewer>
+        <StackPanel>
+            <Expander Header="Ellapse">
+            <Ellipse Fill="Yellow" Stroke="Blue"
+                     Height="50" Width="100" Margin="5" HorizontalAlignment="Left" />
+            </Expander>
+            <Expander Header="Rectangle ">
+            <Rectangle Fill="Yellow" Stroke="Blue"
+                     Height="50" Width="100" Margin="5" HorizontalAlignment="Left" />
+            </Expander>
+            <Expander Header="Rectangle (RadiusX, RadiusY) ">
+                <StackPanel>
+                    <TextBlock>RadiusX,RadiusY = 5</TextBlock>
+                    <Rectangle Fill="Yellow" Stroke="Blue" Height="50" Width="100" Margin="5" HorizontalAlignment="Left" 
+                               RadiusX="5" RadiusY="5"></Rectangle>
+
+                    <TextBlock>RadiusX = 10,RadiusY = 10</TextBlock>
+                    <Rectangle Fill="Yellow" Stroke="Blue" Height="50" Width="100" Margin="5" HorizontalAlignment="Left" 
+                               RadiusX="10" RadiusY="10"></Rectangle>
+
+                    <TextBlock>RadiusX = 10,RadiusY = 25</TextBlock>
+                    <Rectangle Fill="Yellow" Stroke="Blue" Height="50" Width="100" Margin="5" HorizontalAlignment="Left" 
+                               RadiusX="10" RadiusY="25"></Rectangle>
+
+                    <TextBlock>RadiusX = 10,RadiusY = 25</TextBlock>
+                    <Rectangle Fill="Yellow" Stroke="Blue" Height="50" Width="100" Margin="5" HorizontalAlignment="Left" 
+                               RadiusX="100" RadiusY="60"></Rectangle>
+                </StackPanel>
+            </Expander>
+            <Expander Header="Ellapse (도형의 크기지정하여 배치하기)">
+                <Grid>
+                    <Ellipse Fill="Yellow" Stroke="Blue"
+                         Height="50" Width="100" Margin="5" HorizontalAlignment="Left" />
+                </Grid>
+            </Expander>
+            <Expander Header="Canvas">
+                <Canvas Background="LightGray" Height="150">
+                    <Ellipse Fill="Yellow" Stroke="Blue" Canvas.Left="100" Canvas.Top="50"
+                         Height="50" Width="100" Margin="5" HorizontalAlignment="Left" />
+                    <Rectangle Fill="Yellow" Stroke="Blue" Canvas.Left="30" Canvas.Top="40"
+                               Height="50" Width="100" Margin="5" HorizontalAlignment="Left" 
+                               RadiusX="5" RadiusY="5"></Rectangle>
+                </Canvas>
+            </Expander>
+
+            <Expander Header="Viewbox 426page">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto" />                    
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <TextBlock> The First Row of a grid.</TextBlock>
+                    <Viewbox Grid.Row="1"   HorizontalAlignment="Left">
+                        <Canvas Background="LightGray" Width="300" Height="150">  
+                            <Ellipse Fill="Yellow" Stroke="Blue" Canvas.Left="10" Canvas.Top="50"
+                                 Height="50" Width="100" Margin="5" HorizontalAlignment="Left" />
+                            <Rectangle Fill="Yellow" Stroke="Blue" Canvas.Left="30" Canvas.Top="40"
+                                       Height="50" Width="100" Margin="5" HorizontalAlignment="Left" 
+                                       RadiusX="5" RadiusY="5"></Rectangle>
+                        </Canvas>
+                    </Viewbox>
+                </Grid>
+            </Expander>
+
+            <Expander Header="Line 429page">
+                <Canvas Background="LightGray" Height="250" >
+                    <Line Stroke="Blue" X1="0" Y1="0" X2="150" Y2="100" Canvas.Left="100" Canvas.Top="100" />
+                </Canvas>
+            </Expander>
+            <Label>Line이나 Polyline으로 곡선을 그릴수 없다. Path 클래스를 이용해야 한다. (14장)</Label>
+            <Expander Header="Polyline 430page">
+                <Canvas Background="LightGray" Height="280" >
+                    <Polyline Stroke="Blue" Points="5,100 15,200" Canvas.Left="10" Canvas.Top="10" />
+                    <Polyline Stroke="Blue" Points="5 100 15 200" Canvas.Left="110" Canvas.Top="10" />
+                    <Polyline Stroke="Blue" Points="5,150 30,140 50,160 70,130 90,170, 110,120, 130,180 150,100 170,190 190,100 210,240" 
+                              StrokeThickness="5" Canvas.Left="210" Canvas.Top="10" />
+                </Canvas>
+            </Expander>
+            <Expander Header="Polygon 431page">
+                <Canvas Background="LightGray" Height="280" >
+                    <Polygon Stroke="Blue" Points="5,150 30,140 50,160 70,130 90,170, 110,120, 130,180 150,100 170,190 190,100 210,240" 
+                             Fill="Yellow" 
+                             StrokeThickness="5" Canvas.Left="210" Canvas.Top="10" />
+                </Canvas>
+            </Expander>
+            <Expander Header="Polygon (.FillRule) 432page">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Label Grid.Column="0">.FillRule="EvenOdd"</Label>
+                    <Label Grid.Column="1">.FillRule="Nonzero"</Label>
+                    <Canvas Grid.Row="1" HorizontalAlignment="Left"
+                        Background="LightGray" Height="220" Width="180" >
+                        <Polygon Stroke="Blue" Points="15,200 68,70 110,200 0,125 135,125" FillRule="EvenOdd"
+                                 Fill="Yellow" StrokeThickness="1" Canvas.Left="10" Canvas.Top="10" />
+                    </Canvas>
+                    <Canvas Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left"
+                        Background="LightGray" Height="220" Width="180" >
+                        <Polygon Stroke="Blue" Points="15,200 68,70 110,200 0,125 135,125"  FillRule="Nonzero"
+                             Fill="Yellow" StrokeThickness="1" Canvas.Left="10" Canvas.Top="10" />
+                    </Canvas>
+                </Grid>
+            </Expander>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

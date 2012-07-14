@@ -141,6 +141,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriggerDemo2MultiTrigger", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriggerDemo3EventTrigger", "TriggerDemo3EventTrigger\TriggerDemo3EventTrigger.csproj", "{421DD499-8B47-4F7F-8D37-0C698C991699}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13장 도형 변환 브러시", "13장 도형 변환 브러시", "{A0FB50B2-FCD3-4755-A58C-52BCF21C1BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeDemo1", "ShapeDemo1\ShapeDemo1.csproj", "{7D33FB48-B270-476D-BD8D-DBE343FB02C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -347,6 +351,10 @@ Global
 		{421DD499-8B47-4F7F-8D37-0C698C991699}.Debug|x86.Build.0 = Debug|x86
 		{421DD499-8B47-4F7F-8D37-0C698C991699}.Release|x86.ActiveCfg = Release|x86
 		{421DD499-8B47-4F7F-8D37-0C698C991699}.Release|x86.Build.0 = Release|x86
+		{7D33FB48-B270-476D-BD8D-DBE343FB02C0}.Debug|x86.ActiveCfg = Debug|x86
+		{7D33FB48-B270-476D-BD8D-DBE343FB02C0}.Debug|x86.Build.0 = Debug|x86
+		{7D33FB48-B270-476D-BD8D-DBE343FB02C0}.Release|x86.ActiveCfg = Release|x86
+		{7D33FB48-B270-476D-BD8D-DBE343FB02C0}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -412,5 +420,6 @@ Global
 		{D2F98A7A-BC09-4726-AD90-8E2049DD6757} = {452A2413-3948-4FA7-8E6F-EA999A8760A2}
 		{A8D3F8F4-EAD5-442C-B243-5B5E462E3DCC} = {452A2413-3948-4FA7-8E6F-EA999A8760A2}
 		{421DD499-8B47-4F7F-8D37-0C698C991699} = {452A2413-3948-4FA7-8E6F-EA999A8760A2}
+		{7D33FB48-B270-476D-BD8D-DBE343FB02C0} = {A0FB50B2-FCD3-4755-A58C-52BCF21C1BC9}
 	EndGlobalSection
 EndGlobal
