@@ -1,0 +1,183 @@
+﻿<Window x:Class="ShapeDemo4RenderTransform.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="도형변환하기 439page" Height="1124" Width="525">
+    <StackPanel>
+        
+        <Canvas Background="LightGray" Height="250" Margin="10" >            
+            <Label Canvas.Left="200" Canvas.Top="90">RotateTransform Angle="0"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="0" />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+
+            <Label Canvas.Left="200" Canvas.Top="120">RotateTransform Angle="25"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="25" />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+            
+
+            <Label Canvas.Left="200" Canvas.Top="150">RotateTransform Angle="45"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45" />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+
+            <Label Canvas.Left="200" Canvas.Top="170">RotateTransform Angle="75"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="75" />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            
+
+            <Label Canvas.Left="200" Canvas.Top="190">RotateTransform Angle="90"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="90" />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+        </Canvas>
+
+
+        <Canvas Background="LightGray" Height="250" Margin="10" >
+            <Label Canvas.Left="200" Canvas.Top="40">공통 CenterX="45" CenterY="5"</Label>
+            <Label Canvas.Left="200" Canvas.Top="90">RotateTransform Angle="0" </Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="0" CenterX="45" CenterY="5" />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+
+            <Label Canvas.Left="200" Canvas.Top="110">RotateTransform Angle="25"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="25" CenterX="45" CenterY="5" />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+
+
+            <Label Canvas.Left="200" Canvas.Top="130">RotateTransform Angle="45"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45" CenterX="45" CenterY="5"  />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+
+            <Label Canvas.Left="200" Canvas.Top="150">RotateTransform Angle="75"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="75" CenterX="45" CenterY="5" />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+
+            <Label Canvas.Left="200" Canvas.Top="170">RotateTransform Angle="90"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="90" CenterX="45" CenterY="5"  />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+        </Canvas>
+
+        <!-- 3 -->
+        <Canvas Background="LightGray" Height="250" Margin="10" >
+            <Label Canvas.Left="200" Canvas.Top="40">공통 Rectangle : RenderTransformOrigin="0.5,0.5"</Label>
+            <Label Canvas.Left="230" Canvas.Top="55">0과 1사이의 값, "1,1"=우측하단 모서리</Label>
+            <Label Canvas.Left="200" Canvas.Top="90">RotateTransform Angle="0"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform >
+                    <RotateTransform Angle="0"  />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+
+            <Label Canvas.Left="200" Canvas.Top="110">RotateTransform Angle="25"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="25" />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+
+
+            <Label Canvas.Left="200" Canvas.Top="130">RotateTransform Angle="45"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45"/>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+
+            <Label Canvas.Left="200" Canvas.Top="150">RotateTransform Angle="75"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="75"/>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+
+            <Label Canvas.Left="200" Canvas.Top="170">RotateTransform Angle="90"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="90"/>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+        </Canvas>
+        <!-- 4 -->
+        <Canvas Background="LightGray" Height="250" Margin="10" >
+            <Label Canvas.Left="200" Canvas.Top="40">공통 RenderTransformOrigin="0.5,0.5"</Label>
+            <Label Canvas.Left="230" Canvas.Top="55">CenterX="45" CenterY="5"</Label>
+            
+            <Label Canvas.Left="200" Canvas.Top="90">RotateTransform Angle="0"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform >
+                    <RotateTransform Angle="0" CenterX="45" CenterY="5"  />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+
+            <Label Canvas.Left="200" Canvas.Top="110">RotateTransform Angle="25"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="25" CenterX="45" CenterY="5" />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+
+
+            <Label Canvas.Left="200" Canvas.Top="130">RotateTransform Angle="45"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="45" CenterX="45" CenterY="5"  />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+
+            <Label Canvas.Left="200" Canvas.Top="150">RotateTransform Angle="75"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="75" CenterX="45" CenterY="5" />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+
+
+            <Label Canvas.Left="200" Canvas.Top="170">RotateTransform Angle="90"</Label>
+            <Rectangle Width="80" Height="10" Stroke="Blue" Fill="Yellow" Canvas.Left="100" Canvas.Top="100" RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <RotateTransform Angle="90" CenterX="45" CenterY="5"  />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+        </Canvas>
+    </StackPanel>
+</Window>
