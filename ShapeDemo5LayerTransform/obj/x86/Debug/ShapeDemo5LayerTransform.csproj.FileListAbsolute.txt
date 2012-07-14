@@ -1,0 +1,13 @@
+D:\test\wpf_demo\ShapeDemo5LayerTransform\bin\Debug\ShapeDemo5LayerTransform.exe
+D:\test\wpf_demo\ShapeDemo5LayerTransform\bin\Debug\ShapeDemo5LayerTransform.pdb
+D:\test\wpf_demo\ShapeDemo5LayerTransform\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\ShapeDemo5LayerTransform\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\ShapeDemo5LayerTransform\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\ShapeDemo5LayerTransform\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\ShapeDemo5LayerTransform\obj\x86\Debug\ShapeDemo5LayerTransform_MarkupCompile.cache
+D:\test\wpf_demo\ShapeDemo5LayerTransform\obj\x86\Debug\ShapeDemo5LayerTransform.g.resources
+D:\test\wpf_demo\ShapeDemo5LayerTransform\obj\x86\Debug\ShapeDemo5LayerTransform.Properties.Resources.resources
+D:\test\wpf_demo\ShapeDemo5LayerTransform\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\ShapeDemo5LayerTransform\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\ShapeDemo5LayerTransform\obj\x86\Debug\ShapeDemo5LayerTransform.exe
+D:\test\wpf_demo\ShapeDemo5LayerTransform\obj\x86\Debug\ShapeDemo5LayerTransform.pdb

@@ -1,7 +1,8 @@
 ﻿<Window x:Class="ShapeDemo4RenderTransform.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="도형변환하기 439page" Height="1124" Width="525">
+        Title="도형변환하기 439page" Height="1124" Width="582">
+    <ScrollViewer>
     <StackPanel>
         
         <Canvas Background="LightGray" Height="250" Margin="10" >            
@@ -180,4 +181,6 @@
             </Rectangle>
         </Canvas>
     </StackPanel>
+
+    </ScrollViewer>
 </Window>
