@@ -2,7 +2,6 @@ D:\test\wpf_demo\ResourceDictionaryDemo\obj\x86\Debug\ResolveAssemblyReference.c
 D:\test\wpf_demo\ResourceDictionaryDemo\obj\x86\Debug\AppBrushes.baml
 D:\test\wpf_demo\ResourceDictionaryDemo\obj\x86\Debug\MainWindow.baml
 D:\test\wpf_demo\ResourceDictionaryDemo\obj\x86\Debug\App.baml
-D:\test\wpf_demo\ResourceDictionaryDemo\obj\x86\Debug\AppBrushes.g.cs
 D:\test\wpf_demo\ResourceDictionaryDemo\obj\x86\Debug\MainWindow.g.cs
 D:\test\wpf_demo\ResourceDictionaryDemo\obj\x86\Debug\App.g.cs
 D:\test\wpf_demo\ResourceDictionaryDemo\obj\x86\Debug\ResourceDictionaryDemo_MarkupCompile.cache
@@ -10,3 +9,8 @@ D:\test\wpf_demo\ResourceDictionaryDemo\obj\x86\Debug\ResourceDictionaryDemo.g.r
 D:\test\wpf_demo\ResourceDictionaryDemo\obj\x86\Debug\ResourceDictionaryDemo.Properties.Resources.resources
 D:\test\wpf_demo\ResourceDictionaryDemo\obj\x86\Debug\GenerateResource.read.1.tlog
 D:\test\wpf_demo\ResourceDictionaryDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\ResourceDictionaryDemo\bin\Debug\ResourceDictionaryDemo.exe
+D:\test\wpf_demo\ResourceDictionaryDemo\bin\Debug\ResourceDictionaryDemo.pdb
+D:\test\wpf_demo\ResourceDictionaryDemo\obj\x86\Debug\WizardBrushes.baml
+D:\test\wpf_demo\ResourceDictionaryDemo\obj\x86\Debug\ResourceDictionaryDemo.exe
+D:\test\wpf_demo\ResourceDictionaryDemo\obj\x86\Debug\ResourceDictionaryDemo.pdb

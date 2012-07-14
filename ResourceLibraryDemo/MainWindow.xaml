@@ -1,0 +1,19 @@
+﻿<Window x:Class="ResourceLibraryDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:res="clr-namespace:ResourceLibrary;assembly=ResourceLibrary"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <!--<Button 
+            Background="{DynamicResource 
+                {ComponentResourceKey TypeInTargetAssembly={x:Type res:CustomResources}, ResourceId=SadTileBrush}}"
+            Padding="10">
+            A Resource From ResourceLibrary
+        </Button>-->
+        <Button 
+            Background="{DynamicResource {x:Static res:CustomResources.SadTileBrushKey}}"
+            Padding="10">
+            A Resource From ResourceLibrary
+        </Button>
+    </Grid>
+</Window>

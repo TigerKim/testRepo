@@ -1,0 +1,13 @@
+D:\test\wpf_demo\ResourceLibrary\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\ResourceLibrary\obj\x86\Debug\Thremes\generic.baml
+D:\test\wpf_demo\ResourceLibrary\obj\x86\Debug\ResourceLibrary_MarkupCompile.cache
+D:\test\wpf_demo\ResourceLibrary\obj\x86\Debug\ResourceLibrary.g.resources
+D:\test\wpf_demo\ResourceLibrary\obj\x86\Debug\ResourceLibrary.Properties.Resources.resources
+D:\test\wpf_demo\ResourceLibrary\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\ResourceLibrary\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\ResourceLibrary\bin\Debug\ResourceLibrary.dll
+D:\test\wpf_demo\ResourceLibrary\bin\Debug\ResourceLibrary.pdb
+D:\test\wpf_demo\ResourceLibrary\obj\x86\Debug\ResourceLibrary.dll
+D:\test\wpf_demo\ResourceLibrary\obj\x86\Debug\ResourceLibrary.pdb
+D:\test\wpf_demo\ResourceLibrary\obj\x86\Debug\ResourceLibrary_MarkupCompile.lref
+D:\test\wpf_demo\ResourceLibrary\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs

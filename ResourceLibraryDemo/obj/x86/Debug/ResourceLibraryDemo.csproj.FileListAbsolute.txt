@@ -1,0 +1,15 @@
+D:\test\wpf_demo\ResourceLibraryDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\ResourceLibraryDemo\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\ResourceLibraryDemo\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\ResourceLibraryDemo\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\ResourceLibraryDemo\obj\x86\Debug\ResourceLibraryDemo_MarkupCompile.cache
+D:\test\wpf_demo\ResourceLibraryDemo\obj\x86\Debug\ResourceLibraryDemo.g.resources
+D:\test\wpf_demo\ResourceLibraryDemo\obj\x86\Debug\ResourceLibraryDemo.Properties.Resources.resources
+D:\test\wpf_demo\ResourceLibraryDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\ResourceLibraryDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\ResourceLibraryDemo\bin\Debug\ResourceLibraryDemo.exe
+D:\test\wpf_demo\ResourceLibraryDemo\bin\Debug\ResourceLibraryDemo.pdb
+D:\test\wpf_demo\ResourceLibraryDemo\obj\x86\Debug\ResourceLibraryDemo.exe
+D:\test\wpf_demo\ResourceLibraryDemo\obj\x86\Debug\ResourceLibraryDemo.pdb
+D:\test\wpf_demo\ResourceLibraryDemo\bin\Debug\ResourceLibrary.dll
+D:\test\wpf_demo\ResourceLibraryDemo\bin\Debug\ResourceLibrary.pdb
