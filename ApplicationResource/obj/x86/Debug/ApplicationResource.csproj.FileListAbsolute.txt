@@ -8,3 +8,7 @@ D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\ApplicationResource.g.resourc
 D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\ApplicationResource.Properties.Resources.resources
 D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\GenerateResource.read.1.tlog
 D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\ApplicationResource\bin\Debug\ApplicationResource.exe
+D:\test\wpf_demo\ApplicationResource\bin\Debug\ApplicationResource.pdb
+D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\ApplicationResource.exe
+D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\ApplicationResource.pdb
