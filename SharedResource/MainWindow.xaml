@@ -1,0 +1,41 @@
+﻿<Window x:Class="SharedResource.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       Title="비공유 리소스 391page" Height="350" Width="525">
+    <Window.Resources>
+        <ImageBrush x:Key="TileBrush" TileMode="Tile" ViewportUnits="Absolute"
+                    x:Shared="False"
+                    Viewport="0 0 32 32" ImageSource="happyface.png" Opacity="0.3"
+                    />
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <Label>비공유 리소스</Label>
+            <Label>공유 : 동일한 개체 인스턴스를 여러곳에서 사용</Label>
+            <TextBox>공유기능 끄기 x:Shared="False"</TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <Button Margin="10" Padding="20" 
+                    Background="{StaticResource TileBrush}"
+                    FontWeight="Bold"
+                    FontSize="16">
+                A Tiled Button (StaticResource)
+            </Button>
+            <Button Margin="10" Padding="20" 
+                    Background="{DynamicResource TileBrush}"
+                    FontWeight="Bold"
+                    FontSize="16"
+                    >
+                A Tiled Button (DynamicResource)
+            </Button>
+            
+        </StackPanel>
+
+    </Grid>
+</Window>

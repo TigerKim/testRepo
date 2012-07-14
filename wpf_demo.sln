@@ -109,6 +109,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectResource", "ObjectRes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticVsDynamic", "StaticVsDynamic\StaticVsDynamic.csproj", "{0D8F9315-2DB2-4C83-B976-CF7287368502}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedResource", "SharedResource\SharedResource.csproj", "{4F2C4726-09F3-4D51-B938-AE6DF94F8F23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -255,6 +257,10 @@ Global
 		{0D8F9315-2DB2-4C83-B976-CF7287368502}.Debug|x86.Build.0 = Debug|x86
 		{0D8F9315-2DB2-4C83-B976-CF7287368502}.Release|x86.ActiveCfg = Release|x86
 		{0D8F9315-2DB2-4C83-B976-CF7287368502}.Release|x86.Build.0 = Release|x86
+		{4F2C4726-09F3-4D51-B938-AE6DF94F8F23}.Debug|x86.ActiveCfg = Debug|x86
+		{4F2C4726-09F3-4D51-B938-AE6DF94F8F23}.Debug|x86.Build.0 = Debug|x86
+		{4F2C4726-09F3-4D51-B938-AE6DF94F8F23}.Release|x86.ActiveCfg = Release|x86
+		{4F2C4726-09F3-4D51-B938-AE6DF94F8F23}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -305,5 +311,6 @@ Global
 		{1E942617-08EA-4E71-A94F-E1B8AEE021B4} = {0093A54B-F856-43F9-BCFC-DC7C0AFE1D49}
 		{2129FFEB-2B59-4F27-AB9D-35B3B0F57DF9} = {0093A54B-F856-43F9-BCFC-DC7C0AFE1D49}
 		{0D8F9315-2DB2-4C83-B976-CF7287368502} = {0093A54B-F856-43F9-BCFC-DC7C0AFE1D49}
+		{4F2C4726-09F3-4D51-B938-AE6DF94F8F23} = {0093A54B-F856-43F9-BCFC-DC7C0AFE1D49}
 	EndGlobalSection
 EndGlobal
