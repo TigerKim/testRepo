@@ -129,6 +129,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleDemo2WithTag", "StyleD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleDemo3TargetType", "StyleDemo3TargetType\StyleDemo3TargetType.csproj", "{D62168E5-D856-4E3B-9DE9-50872D32DE16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleEventHandler", "StyleEventHandler\StyleEventHandler.csproj", "{7C70D4B1-D59D-4F9A-B5AC-5E7202197538}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -311,6 +313,10 @@ Global
 		{D62168E5-D856-4E3B-9DE9-50872D32DE16}.Debug|x86.Build.0 = Debug|x86
 		{D62168E5-D856-4E3B-9DE9-50872D32DE16}.Release|x86.ActiveCfg = Release|x86
 		{D62168E5-D856-4E3B-9DE9-50872D32DE16}.Release|x86.Build.0 = Release|x86
+		{7C70D4B1-D59D-4F9A-B5AC-5E7202197538}.Debug|x86.ActiveCfg = Debug|x86
+		{7C70D4B1-D59D-4F9A-B5AC-5E7202197538}.Debug|x86.Build.0 = Debug|x86
+		{7C70D4B1-D59D-4F9A-B5AC-5E7202197538}.Release|x86.ActiveCfg = Release|x86
+		{7C70D4B1-D59D-4F9A-B5AC-5E7202197538}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -370,5 +376,6 @@ Global
 		{6B6E0B4C-A1D0-47F7-B16F-EBA06D32BBAA} = {452A2413-3948-4FA7-8E6F-EA999A8760A2}
 		{93365AAB-62BC-4635-B37F-E40C93878813} = {452A2413-3948-4FA7-8E6F-EA999A8760A2}
 		{D62168E5-D856-4E3B-9DE9-50872D32DE16} = {452A2413-3948-4FA7-8E6F-EA999A8760A2}
+		{7C70D4B1-D59D-4F9A-B5AC-5E7202197538} = {452A2413-3948-4FA7-8E6F-EA999A8760A2}
 	EndGlobalSection
 EndGlobal
