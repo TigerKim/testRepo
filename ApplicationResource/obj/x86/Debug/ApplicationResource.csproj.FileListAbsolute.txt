@@ -1,0 +1,10 @@
+D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\App.baml
+D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\ApplicationResource_MarkupCompile.cache
+D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\ApplicationResource.g.resources
+D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\ApplicationResource.Properties.Resources.resources
+D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\GenerateResource.write.1.tlog

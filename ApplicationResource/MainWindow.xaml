@@ -1,0 +1,34 @@
+﻿<Window x:Class="ApplicationResource.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <TextBox>응용프로그램 리소스 392page</TextBox>
+            <TextBox>App.xaml에서 리소스를 정의</TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <Button Margin="10" Padding="20" 
+                    Background="{StaticResource TileBrush}"
+                    FontWeight="Bold"
+                    FontSize="16">
+                A Tiled Button (StaticResource)
+            </Button>
+            <Button Margin="10" Padding="20" 
+                    Background="{DynamicResource TileBrush}"
+                    FontWeight="Bold"
+                    FontSize="16"
+                    >
+                A Tiled Button (DynamicResource)
+            </Button>
+        
+        </StackPanel>
+
+    </Grid>
+</Window>

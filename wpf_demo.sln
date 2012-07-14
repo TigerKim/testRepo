@@ -113,6 +113,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedResource", "SharedRes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceAccessWithCode", "ResourceAccessWithCode\ResourceAccessWithCode.csproj", "{F4212C05-BF38-4D4D-9F82-917A09088B14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationResource", "ApplicationResource\ApplicationResource.csproj", "{D618423E-9B2B-47CF-BC45-319F5D5A7938}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -267,6 +269,10 @@ Global
 		{F4212C05-BF38-4D4D-9F82-917A09088B14}.Debug|x86.Build.0 = Debug|x86
 		{F4212C05-BF38-4D4D-9F82-917A09088B14}.Release|x86.ActiveCfg = Release|x86
 		{F4212C05-BF38-4D4D-9F82-917A09088B14}.Release|x86.Build.0 = Release|x86
+		{D618423E-9B2B-47CF-BC45-319F5D5A7938}.Debug|x86.ActiveCfg = Debug|x86
+		{D618423E-9B2B-47CF-BC45-319F5D5A7938}.Debug|x86.Build.0 = Debug|x86
+		{D618423E-9B2B-47CF-BC45-319F5D5A7938}.Release|x86.ActiveCfg = Release|x86
+		{D618423E-9B2B-47CF-BC45-319F5D5A7938}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -319,5 +325,6 @@ Global
 		{0D8F9315-2DB2-4C83-B976-CF7287368502} = {0093A54B-F856-43F9-BCFC-DC7C0AFE1D49}
 		{4F2C4726-09F3-4D51-B938-AE6DF94F8F23} = {0093A54B-F856-43F9-BCFC-DC7C0AFE1D49}
 		{F4212C05-BF38-4D4D-9F82-917A09088B14} = {0093A54B-F856-43F9-BCFC-DC7C0AFE1D49}
+		{D618423E-9B2B-47CF-BC45-319F5D5A7938} = {0093A54B-F856-43F9-BCFC-DC7C0AFE1D49}
 	EndGlobalSection
 EndGlobal
