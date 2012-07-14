@@ -1,0 +1,13 @@
+D:\test\wpf_demo\TriggerDemo2MultiTrigger\bin\Debug\TriggerDemo2MultiTrigger.exe
+D:\test\wpf_demo\TriggerDemo2MultiTrigger\bin\Debug\TriggerDemo2MultiTrigger.pdb
+D:\test\wpf_demo\TriggerDemo2MultiTrigger\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\TriggerDemo2MultiTrigger\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\TriggerDemo2MultiTrigger\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\TriggerDemo2MultiTrigger\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\TriggerDemo2MultiTrigger\obj\x86\Debug\TriggerDemo2MultiTrigger_MarkupCompile.cache
+D:\test\wpf_demo\TriggerDemo2MultiTrigger\obj\x86\Debug\TriggerDemo2MultiTrigger.g.resources
+D:\test\wpf_demo\TriggerDemo2MultiTrigger\obj\x86\Debug\TriggerDemo2MultiTrigger.Properties.Resources.resources
+D:\test\wpf_demo\TriggerDemo2MultiTrigger\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\TriggerDemo2MultiTrigger\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\TriggerDemo2MultiTrigger\obj\x86\Debug\TriggerDemo2MultiTrigger.exe
+D:\test\wpf_demo\TriggerDemo2MultiTrigger\obj\x86\Debug\TriggerDemo2MultiTrigger.pdb
