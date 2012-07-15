@@ -171,6 +171,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathDemo1Geometry", "PathDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathDemo2GeometryGroup", "PathDemo2GeometryGroup\PathDemo2GeometryGroup.csproj", "{7AD44F41-240F-4887-A972-B882BAD6A5B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathDemo3CombinedGeometry", "PathDemo3CombinedGeometry\PathDemo3CombinedGeometry.csproj", "{D388A35C-DCEA-48D0-A8EA-41A3A3C71C47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -429,6 +431,10 @@ Global
 		{7AD44F41-240F-4887-A972-B882BAD6A5B9}.Debug|x86.Build.0 = Debug|x86
 		{7AD44F41-240F-4887-A972-B882BAD6A5B9}.Release|x86.ActiveCfg = Release|x86
 		{7AD44F41-240F-4887-A972-B882BAD6A5B9}.Release|x86.Build.0 = Release|x86
+		{D388A35C-DCEA-48D0-A8EA-41A3A3C71C47}.Debug|x86.ActiveCfg = Debug|x86
+		{D388A35C-DCEA-48D0-A8EA-41A3A3C71C47}.Debug|x86.Build.0 = Debug|x86
+		{D388A35C-DCEA-48D0-A8EA-41A3A3C71C47}.Release|x86.ActiveCfg = Release|x86
+		{D388A35C-DCEA-48D0-A8EA-41A3A3C71C47}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -507,5 +513,6 @@ Global
 		{72360A14-D3BA-43FB-8554-234A8BFEF8F3} = {A0FB50B2-FCD3-4755-A58C-52BCF21C1BC9}
 		{735596DC-E2A5-48FD-8139-CA093CC135C7} = {7C3A1255-6EDB-4859-A5A9-159D7CA1F459}
 		{7AD44F41-240F-4887-A972-B882BAD6A5B9} = {7C3A1255-6EDB-4859-A5A9-159D7CA1F459}
+		{D388A35C-DCEA-48D0-A8EA-41A3A3C71C47} = {7C3A1255-6EDB-4859-A5A9-159D7CA1F459}
 	EndGlobalSection
 EndGlobal

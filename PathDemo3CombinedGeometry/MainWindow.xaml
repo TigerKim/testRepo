@@ -1,0 +1,227 @@
+﻿<Window x:Class="PathDemo3CombinedGeometry.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Geometry 개체들은 CombinedGeometry 개체에 융합하기 468page" Height="676" Width="671">
+    <Window.Resources>
+        <Style TargetType="StackPanel" >
+            <Setter Property="Margin" Value="5,5,5,5" />
+            <!--<Setter Property="StackPanel.Orientation" Value="Horizontal" />-->
+        </Style>
+
+        <GeometryGroup x:Key="Geometry">
+            <RectangleGeometry Rect="0,0 100,100"></RectangleGeometry>
+            <EllipseGeometry Center="150,50" RadiusX="35" RadiusY="25"></EllipseGeometry>
+        </GeometryGroup>
+    </Window.Resources>
+    <ScrollViewer>
+        <StackPanel>
+            <!-- 1 -->
+            <Expander Header="GeometryGroup (Simple)">
+                <StackPanel >
+                    <StackPanel Orientation="Horizontal">
+                        <Path Fill="Yellow" Stroke="Blue" Margin="5" >
+                            <Path.Data>
+                                <CombinedGeometry GeometryCombineMode="Union">
+                                    <CombinedGeometry.Geometry1>
+                                        <RectangleGeometry Rect="0,0 100,100"></RectangleGeometry>
+                                    </CombinedGeometry.Geometry1>
+                                    <CombinedGeometry.Geometry2>
+                                        <EllipseGeometry Center="150,50" RadiusX="35" RadiusY="25"></EllipseGeometry>
+                                    </CombinedGeometry.Geometry2>
+                                </CombinedGeometry>
+                            </Path.Data>
+                        </Path>
+                        <StackPanel>
+                            <Label>CombinedGeometry GeometryCombineMode="Union"</Label>
+                            <Label>CombinedGeometry.Geometry1</Label>
+                            <Label>RectangleGeometry Rect="0,0 100,100"</Label>                            
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </Expander>
+
+
+            <!-- 2 -->
+            <Expander Header="GeometryGroup (GeometryCombineMode)">
+                <StackPanel >
+                    <StackPanel Orientation="Horizontal">
+                        <Canvas Height="140" Width="250">
+                            <Path Fill="Yellow" Stroke="Blue" Margin="5" >
+                                <Path.Data>
+                                    <CombinedGeometry GeometryCombineMode="Union">
+                                        <CombinedGeometry.Geometry1>
+                                            <RectangleGeometry Rect="0,0 100,100"></RectangleGeometry>
+                                        </CombinedGeometry.Geometry1>
+                                        <CombinedGeometry.Geometry2>
+                                            <EllipseGeometry Center="85,50" RadiusX="65" RadiusY="35"></EllipseGeometry>
+                                        </CombinedGeometry.Geometry2>
+                                    </CombinedGeometry>
+                                </Path.Data>
+                            </Path>
+                        
+                            <StackPanel Canvas.Left="250">
+                                <Label>CombinedGeometry GeometryCombineMode="Union"</Label>
+                                <Label>CombinedGeometry.Geometry1</Label>
+                                <Label>--- RectangleGeometry Rect="0,0 100,100"</Label>
+                                <Label>CombinedGeometry.Geometry2</Label>
+                                <Label>--- EllipseGeometry Center="85,50" RadiusX="65" RadiusY="35"</Label>
+                                
+                            </StackPanel>
+                        </Canvas>
+                    </StackPanel>
+                
+                    <StackPanel Orientation="Horizontal">
+                        <Canvas Height="120" Width="250">
+                            <Path Fill="Yellow" Stroke="Blue" Margin="5" >
+                                <Path.Data>
+                                    <CombinedGeometry GeometryCombineMode="Exclude">
+                                        <CombinedGeometry.Geometry1>
+                                            <RectangleGeometry Rect="0,0 100,100"></RectangleGeometry>
+                                        </CombinedGeometry.Geometry1>
+                                        <CombinedGeometry.Geometry2>
+                                            <EllipseGeometry Center="85,50" RadiusX="65" RadiusY="35"></EllipseGeometry>
+                                        </CombinedGeometry.Geometry2>
+                                    </CombinedGeometry>
+                                </Path.Data>
+                            </Path>
+
+                            <StackPanel Canvas.Left="250">
+                                <Label>CombinedGeometry GeometryCombineMode="Exclude"</Label>
+                                <Label>나머지 동일</Label>
+                            </StackPanel>
+                        </Canvas>
+                    </StackPanel>
+
+
+                    <StackPanel Orientation="Horizontal">
+                        <Canvas Height="120" Width="250">
+                            <Path Fill="Yellow" Stroke="Blue" Margin="5" >
+                                <Path.Data>
+                                    <CombinedGeometry GeometryCombineMode="Xor">
+                                        <CombinedGeometry.Geometry1>
+                                            <RectangleGeometry Rect="0,0 100,100"></RectangleGeometry>
+                                        </CombinedGeometry.Geometry1>
+                                        <CombinedGeometry.Geometry2>
+                                            <EllipseGeometry Center="85,50" RadiusX="65" RadiusY="35"></EllipseGeometry>
+                                        </CombinedGeometry.Geometry2>
+                                    </CombinedGeometry>
+                                </Path.Data>
+                            </Path>
+
+                            <StackPanel Canvas.Left="250">
+                                <Label>CombinedGeometry GeometryCombineMode="Xor"</Label>
+                                <Label>나머지 동일</Label>
+                            </StackPanel>
+                        </Canvas>
+                    </StackPanel>
+
+
+                    <StackPanel Orientation="Horizontal">
+                        <Canvas Height="120" Width="250">
+                            <Path Fill="Yellow" Stroke="Blue" Margin="5" >
+                                <Path.Data>
+                                    <CombinedGeometry GeometryCombineMode="Intersect">
+                                        <CombinedGeometry.Geometry1>
+                                            <RectangleGeometry Rect="0,0 100,100"></RectangleGeometry>
+                                        </CombinedGeometry.Geometry1>
+                                        <CombinedGeometry.Geometry2>
+                                            <EllipseGeometry Center="85,50" RadiusX="65" RadiusY="35"></EllipseGeometry>
+                                        </CombinedGeometry.Geometry2>
+                                    </CombinedGeometry>
+                                </Path.Data>
+                            </Path>
+
+                            <StackPanel Canvas.Left="250">
+                                <Label>CombinedGeometry GeometryCombineMode="Intersect"</Label>
+                                <Label>나머지 동일</Label>
+                            </StackPanel>
+                        </Canvas>
+                    </StackPanel>
+
+
+
+                </StackPanel>
+            </Expander>
+
+            <!-- 3 -->
+            <Expander Header="RotateTransform, RectangleGeometry">
+                <StackPanel >
+                    <StackPanel Orientation="Horizontal">
+                        <Canvas Height="140" Width="250">
+                            <Path Fill="Yellow" Stroke="Blue" Margin="5" >
+                                <Path.Data>
+                                    <RectangleGeometry Rect="44,5 10,90">
+                                        <RectangleGeometry.Transform>
+                                            <RotateTransform Angle="45" CenterX="50" CenterY="50"></RotateTransform>
+                                        </RectangleGeometry.Transform>        
+                                    </RectangleGeometry>
+                                </Path.Data>
+                            </Path>
+
+                            <StackPanel Canvas.Left="250">
+                                <Label>RectangleGeometry Rect="44,5 10,90"</Label>
+                                <Label>+RectangleGeometry.Transform</Label>
+                                <Label>++RotateTransform Angle="45" CenterX="50" CenterY="50"</Label>
+                            </StackPanel>
+                        </Canvas>
+                    </StackPanel>
+                </StackPanel>
+            </Expander>
+
+            <!-- 4 -->
+            <Expander Header="슬래시와 빈원을 이용한 마크 만들기">
+                <StackPanel >
+                    <StackPanel Orientation="Horizontal">
+                        <Canvas Height="140" Width="250" Background="Silver">
+                            <Path Fill="Yellow" Stroke="Blue" Margin="5" >
+                                <Path.Data>
+                                    <CombinedGeometry GeometryCombineMode="Union">
+                                        <CombinedGeometry.Geometry1>
+                                            <CombinedGeometry GeometryCombineMode="Exclude">
+                                                <CombinedGeometry.Geometry1>
+                                                    <EllipseGeometry Center="50,50" RadiusX="50" RadiusY="50" />
+                                                </CombinedGeometry.Geometry1>
+                                                <CombinedGeometry.Geometry2>
+                                                    <EllipseGeometry Center="50,50" RadiusX="40" RadiusY="40" />
+                                                </CombinedGeometry.Geometry2>
+                                            </CombinedGeometry>
+                                        </CombinedGeometry.Geometry1>
+                                        
+                                        <CombinedGeometry.Geometry2>
+                                            <RectangleGeometry Rect="44,5 10,90">
+                                                <RectangleGeometry.Transform>
+                                                    <RotateTransform Angle="45" CenterX="50" CenterY="50" />
+                                                </RectangleGeometry.Transform>
+                                            </RectangleGeometry>
+                                        </CombinedGeometry.Geometry2>
+                                        
+        
+                                    </CombinedGeometry>
+                                </Path.Data>
+                            </Path>
+
+                            <StackPanel Canvas.Left="250">
+                                <Label>CombinedGeometry GeometryCombineMode="Union"</Label>
+                                <Label></Label>
+                                <Label>CombinedGeometry.Geometry1</Label>
+                                <Label>+CombinedGeometry GeometryCombineMode="Exclude"</Label>
+                                <Label>+CombinedGeometry.Geometry1</Label>
+                                <Label>+EllipseGeometry Center="50,50" RadiusX="50" RadiusY="50"</Label>
+                                <Label></Label>
+                                <Label>+CombinedGeometry.Geometry2</Label>
+                                <Label>+EllipseGeometry Center="50,50" RadiusX="40" RadiusY="40"</Label>
+                                <Label></Label>
+                                <Label>CombinedGeometry.Geometry2</Label>
+                                <Label>+RectangleGeometry Rect="44,5 10,90"</Label>
+                                
+                                <Label>+RotateTransform Angle="45" CenterX="50" CenterY="50" />
+                                </Label>
+                            </StackPanel>
+                        </Canvas>
+                    </StackPanel>
+                </StackPanel>
+            </Expander>
+            
+        </StackPanel>
+    </ScrollViewer>
+</Window>
