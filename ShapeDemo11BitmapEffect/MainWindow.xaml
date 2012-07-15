@@ -1,0 +1,98 @@
+﻿<Window x:Class="ShapeDemo11BitmapEffect.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="비트맵 효과 456page" Height="539" Width="525">
+    <Window.Resources>
+        
+        <Style TargetType="Label">
+            <Setter Property="Margin" Value="10,5,10,0" />
+            <Setter Property="Padding" Value="5" />
+        </Style>
+    </Window.Resources>
+    <ScrollViewer>
+        <StackPanel>
+            <Expander Header="Button.BitmapEffect (효과는 실제 실행해야 보임)">
+                <StackPanel Margin="10">
+                    <Label>BlurBitmapEffect Radius="1"</Label>
+                    <Button Margin="10" Padding="10">
+                        <Button.Content>A Blured Button</Button.Content>
+                        <Button.BitmapEffect>
+                            <BlurBitmapEffect Radius="1" />
+                        </Button.BitmapEffect>
+                    </Button>
+
+                    <Label>BlurBitmapEffect Radius="5" (default)</Label>
+                    <Button Margin="10" Padding="10">
+                        <Button.Content>A Blured Button</Button.Content>
+                        <Button.BitmapEffect>
+                            <BlurBitmapEffect Radius="5" />
+                        </Button.BitmapEffect>
+                    </Button>
+
+                    <Label>BlurBitmapEffect Radius="5" KernelType="Gaussian"</Label>
+                    <Button Margin="10" Padding="10">
+                        <Button.Content>A Blured Button</Button.Content>
+                        <Button.BitmapEffect>
+                            <BlurBitmapEffect Radius="5" KernelType="Gaussian" />
+                        </Button.BitmapEffect>
+                    </Button>
+
+                    <Label>BlurBitmapEffect Radius="5" KernelType="Box"</Label>
+                    <Button Margin="10" Padding="10">
+                        <Button.Content>A Blured Button</Button.Content>
+                        <Button.BitmapEffect>
+                            <BlurBitmapEffect Radius="5" KernelType="Box" />
+                        </Button.BitmapEffect>
+                    </Button>
+                </StackPanel>
+
+            </Expander>
+
+            <!-- 2 -->
+            <Expander Header="3D테두리 BevelBitmapEffect (적용안됨)" IsExpanded="True">
+                <StackPanel Margin="10">
+                    <Label>BevelBitmapEffect BevelWidth="5"(기본값)</Label>
+                    <Button Margin="10" Padding="10">
+                        <Button.Content>BevelBitmapEffect Button</Button.Content>
+                        <Button.BitmapEffect>
+                            <BevelBitmapEffect EdgeProfile="BulgedUp" />
+                            <!--<BevelBitmapEffect BevelWidth="5" Relief="0.5" Smoothness="0.5" LightAngle="45" EdgeProfile="CurvedOut" />-->
+                        </Button.BitmapEffect>
+                    </Button>
+                </StackPanel>
+            </Expander>
+
+            <!-- 3 -->
+            <Expander Header="3D테두리 EmbossBitmapEffect (적용안됨)" IsExpanded="False">
+                <StackPanel Margin="10">
+                    <Label>BevelBitmapEffect BevelWidth="5"(기본값)</Label>
+                    <Button Margin="10" Padding="10">
+                        <Button.Content>BevelBitmapEffect Button</Button.Content>
+                        <Button.BitmapEffect>
+                            <EmbossBitmapEffect LightAngle="0.5" Relief="0.5"/>                            
+                        </Button.BitmapEffect>
+                    </Button>
+                </StackPanel>
+
+            </Expander>
+
+            <!-- 4 -->
+            <Expander Header="글로우 OuterGlowBitmapEffect (적용안됨)" IsExpanded="True">
+                <StackPanel Margin="10">
+                    <Label>OuterGlowBitmapEffect (기본값)</Label>
+                    <Button Margin="10" Padding="10">
+                        <Button.Content>BevelBitmapEffect Button</Button.Content>
+                        <Button.BitmapEffect>
+                            <OuterGlowBitmapEffect GlowColor="Yellow" GlowSize="20" Noise="0.5" />
+                        </Button.BitmapEffect>
+                    </Button>
+                </StackPanel>
+
+            </Expander>
+
+
+        </StackPanel>
+    </ScrollViewer>
+
+
+</Window>

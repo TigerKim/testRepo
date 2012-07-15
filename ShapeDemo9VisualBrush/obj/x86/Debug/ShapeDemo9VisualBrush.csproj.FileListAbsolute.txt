@@ -1,0 +1,13 @@
+D:\test\wpf_demo\ShapeDemo9VisualBrush\bin\Debug\ShapeDemo9VisualBrush.exe
+D:\test\wpf_demo\ShapeDemo9VisualBrush\bin\Debug\ShapeDemo9VisualBrush.pdb
+D:\test\wpf_demo\ShapeDemo9VisualBrush\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\ShapeDemo9VisualBrush\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\ShapeDemo9VisualBrush\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\ShapeDemo9VisualBrush\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\ShapeDemo9VisualBrush\obj\x86\Debug\ShapeDemo9VisualBrush_MarkupCompile.cache
+D:\test\wpf_demo\ShapeDemo9VisualBrush\obj\x86\Debug\ShapeDemo9VisualBrush.g.resources
+D:\test\wpf_demo\ShapeDemo9VisualBrush\obj\x86\Debug\ShapeDemo9VisualBrush.Properties.Resources.resources
+D:\test\wpf_demo\ShapeDemo9VisualBrush\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\ShapeDemo9VisualBrush\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\ShapeDemo9VisualBrush\obj\x86\Debug\ShapeDemo9VisualBrush.exe
+D:\test\wpf_demo\ShapeDemo9VisualBrush\obj\x86\Debug\ShapeDemo9VisualBrush.pdb

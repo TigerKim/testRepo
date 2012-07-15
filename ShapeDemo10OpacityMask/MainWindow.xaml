@@ -1,0 +1,39 @@
+﻿<Window x:Class="ShapeDemo10OpacityMask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="불투명도 마스트 + 반사효과 454" Height="524" Width="643">
+    <StackPanel>
+        <Grid Height="300" Margin="10">
+            <Grid.Background>
+                <ImageBrush ImageSource="happyface.png" />
+            </Grid.Background>
+            <Button Background="Red" FontSize="14" FontWeight="Bold" Width="300" Height="200">
+                <Button.OpacityMask>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                        <GradientStop Offset="0" Color="Black"></GradientStop>
+                        <GradientStop Offset="1" Color="Transparent"></GradientStop>
+                    </LinearGradientBrush>
+                </Button.OpacityMask>
+                <Button.Content>A partially TranParent Button</Button.Content>
+            </Button>
+
+        </Grid>
+        <StackPanel Background="Gray"  Margin="10">
+            <TextBox Margin="10" Name="txt" FontSize="30" BorderThickness="1">Here is some reflected text.</TextBox>
+            <Rectangle Margin="10,0,10,10" RenderTransformOrigin="1, 0.5" Height="50">
+                <Rectangle.Fill>
+                    <VisualBrush Visual="{Binding ElementName=txt}"></VisualBrush>
+                </Rectangle.Fill>
+                <Rectangle.OpacityMask>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Offset="0.1" Color="Transparent"></GradientStop>
+                        <GradientStop Offset="1" Color="#66000000"></GradientStop>
+                    </LinearGradientBrush>
+                </Rectangle.OpacityMask>
+                <Rectangle.RenderTransform>
+                    <ScaleTransform ScaleY="-1" />
+                </Rectangle.RenderTransform>
+            </Rectangle>
+        </StackPanel>
+    </StackPanel>
+</Window>

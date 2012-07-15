@@ -1,0 +1,13 @@
+D:\test\wpf_demo\ShapeDemo6AdvancedBrush\bin\Debug\ShapeDemo6AdvancedBrush.exe
+D:\test\wpf_demo\ShapeDemo6AdvancedBrush\bin\Debug\ShapeDemo6AdvancedBrush.pdb
+D:\test\wpf_demo\ShapeDemo6AdvancedBrush\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\ShapeDemo6AdvancedBrush\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\ShapeDemo6AdvancedBrush\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\ShapeDemo6AdvancedBrush\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\ShapeDemo6AdvancedBrush\obj\x86\Debug\ShapeDemo6AdvancedBrush_MarkupCompile.cache
+D:\test\wpf_demo\ShapeDemo6AdvancedBrush\obj\x86\Debug\ShapeDemo6AdvancedBrush.g.resources
+D:\test\wpf_demo\ShapeDemo6AdvancedBrush\obj\x86\Debug\ShapeDemo6AdvancedBrush.Properties.Resources.resources
+D:\test\wpf_demo\ShapeDemo6AdvancedBrush\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\ShapeDemo6AdvancedBrush\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\ShapeDemo6AdvancedBrush\obj\x86\Debug\ShapeDemo6AdvancedBrush.exe
+D:\test\wpf_demo\ShapeDemo6AdvancedBrush\obj\x86\Debug\ShapeDemo6AdvancedBrush.pdb

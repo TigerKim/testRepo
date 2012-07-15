@@ -1,0 +1,198 @@
+﻿<Window x:Class="ShapeDemo7ImageBrush.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="고급브러시 ImageBrush 448" Height="1618" Width="1013">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Padding" Value="10" />
+            <Setter Property="Margin" Value="10" />
+        </Style>
+        <Style x:Key="StackPanel1" >
+            <Setter Property="StackPanel.Background" Value="#FFEEEEEF" />
+            <Setter Property="StackPanel.Margin" Value="10" />
+            <!--<Setter Property="StackPanel.Orientation" Value="Horizontal" />-->
+        </Style>
+    </Window.Resources>
+    <ScrollViewer>
+        <StackPanel>
+            <Expander Header="ImageBrush" IsExpanded="False">
+                <StackPanel>
+                    <StackPanel Style="{StaticResource StackPanel1}" Orientation="Horizontal" HorizontalAlignment="Left">
+                        <Grid Height="183" Width="170">
+                            <Grid.Background>
+                                <ImageBrush ImageSource="happyface.png" Stretch="None"></ImageBrush>
+                            </Grid.Background>
+                        </Grid>
+                        <StackPanel Width="330">
+                            <Label>원본</Label>
+                            <Label>ImageBrush ImageSource="happyface.png"</Label>
+                        </StackPanel>
+                    </StackPanel>
+                    
+                    <!-- 1 -->
+                    <StackPanel Style="{StaticResource StackPanel1}" Orientation="Horizontal" HorizontalAlignment="Left">
+                        <Grid Height="200" Width="100">
+                            <Grid.Background>
+                                <ImageBrush ImageSource="happyface.png" ></ImageBrush>
+                            </Grid.Background>
+                        </Grid>
+                        <StackPanel Width="400">
+                            <Label>Grid의 영역에 자동으로 늘어남 => 흐릿함등 현상 발생</Label>
+                            <Label>Stretch="Fill" (기본값)</Label>
+                        </StackPanel>
+                    </StackPanel>
+
+
+                    <!-- 2 -->
+                    <StackPanel Style="{StaticResource StackPanel1}" Orientation="Horizontal" HorizontalAlignment="Left">
+                        <Grid Height="200" Width="100">
+                            <Grid.Background>
+                                <ImageBrush ImageSource="happyface.png" Stretch="Uniform"></ImageBrush>
+                            </Grid.Background>
+                        </Grid>
+                        <StackPanel Width="400">
+                            <Label>ImageBrush ImageSource="happyface.png" Stretch="Uniform"</Label>
+                            <Label>종횡비만 유지(확대, 축소가능), 이미지 잘리지 않음</Label>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <!-- 3 -->
+                    <StackPanel Style="{StaticResource StackPanel1}" Orientation="Horizontal" HorizontalAlignment="Left">
+                        <Grid Height="200" Width="100">
+                            <Grid.Background>
+                                <ImageBrush ImageSource="happyface.png" Stretch="None"></ImageBrush>
+                            </Grid.Background>
+                        </Grid>
+                        <StackPanel Width="400">
+                            <Label>ImageBrush ImageSource="happyface.png" Stretch="None"</Label>
+                            <Label>종횡비 유지(원본으로 표시), 이미지 잘림</Label>
+                        </StackPanel>
+                    </StackPanel>
+
+
+                    <!-- 4 -->
+                    <StackPanel Style="{StaticResource StackPanel1}" Orientation="Horizontal" HorizontalAlignment="Left">
+                        <Grid Height="200" Width="100">
+                            <Grid.Background>
+                                <ImageBrush ImageSource="happyface.png" Stretch="UniformToFill"></ImageBrush>
+                            </Grid.Background>
+                        </Grid>
+                        <StackPanel Width="400">
+                            <Label>ImageBrush ImageSource="happyface.png" Stretch="UniformToFill"</Label>
+                            <Label>종횡비 유지(확대/축소), 이미지를 최대한 채움</Label>
+                        </StackPanel>
+                    </StackPanel>
+
+
+                </StackPanel>
+
+            </Expander>
+
+
+            <Expander Header="ImageBrush + Viewbox : 사용하고자 하는 이미지의 일부를 오려내기" IsExpanded="False">
+                <StackPanel>
+                    <StackPanel Style="{StaticResource StackPanel1}" Orientation="Horizontal" HorizontalAlignment="Left" >
+                        <StackPanel VerticalAlignment="Top">
+                            <Grid Height="180" Width="180">
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="happyface.png" Stretch="None"></ImageBrush>
+                                </Grid.Background>
+                            </Grid>
+                            <Label>원본</Label><Label>상대좌표 시스템</Label>
+                            <Label>좌측상단 (0,0) 우측하단 (1,1)</Label>
+                        </StackPanel>
+                        <StackPanel VerticalAlignment="Top">
+                            <Grid Height="180" Width="180">
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="happyface.png" 
+                                                Stretch="None"
+                                                Viewbox="0.5,0.5 1.0,1.0"
+                                                ></ImageBrush>
+                                </Grid.Background>
+                            </Grid>
+                            <Label>Stretch="None"</Label>
+                            <Label>Viewbox="0.5,0.5 1.0,1.0"</Label>                            
+                        </StackPanel>
+                        <StackPanel VerticalAlignment="Top">
+                            <Grid Height="180" Width="180">
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="happyface.png" 
+                                                Stretch="Uniform" 
+                                                Viewbox="0.5,0.5 1.0,1.0"
+                                                ></ImageBrush>
+                                </Grid.Background>
+                            </Grid>
+                            <Label>Stretch="Uniform"</Label>
+                            <Label>Viewbox="0.5,0.5 1.0,1.0"</Label>
+                        </StackPanel>
+                        <StackPanel VerticalAlignment="Top">
+                            <Grid Height="180" Width="180">
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="happyface.png" 
+                                                Stretch="UniformToFill" 
+                                                Viewbox="0.5,0.5 1.0,1.0"
+                                                ></ImageBrush>
+                                </Grid.Background>
+                            </Grid>
+                            <Label>Stretch="UniformToFill"</Label>
+                            <Label>Viewbox="0.5,0.5 1.0,1.0"</Label>
+                        </StackPanel>
+                        <StackPanel VerticalAlignment="Top">
+                            <Grid Height="180" Width="180">
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="happyface.png" 
+                                                Stretch="Fill" 
+                                                Viewbox="0.5,0.5 1.0,1.0"
+                                                ></ImageBrush>
+                                </Grid.Background>
+                            </Grid>
+                            <Label>Stretch="Fill"</Label>
+                            <Label>Viewbox="0.5,0.5 1.0,1.0"</Label>
+                        </StackPanel>
+                    </StackPanel>
+
+
+
+                </StackPanel>
+                
+                
+            </Expander>
+
+            <Expander Header="ImageBrush + Viewbox : (시작점과, 너비, 높이)" IsExpanded="True">
+                <StackPanel>
+                    <StackPanel Style="{StaticResource StackPanel1}" Orientation="Horizontal" HorizontalAlignment="Left" >
+                        <StackPanel VerticalAlignment="Top">
+                            <Grid Height="180" Width="180">
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="happyface.png" Stretch="None"></ImageBrush>
+                                </Grid.Background>
+                            </Grid>
+                            <Label>원본</Label>
+                            <Label>상대좌표 시스템</Label>
+                            <Label>="0.4,0.5 0.2,0.2" </Label>
+                            <Label>=> 시작점 (0.4,0.5) + 너비,높이(0.2,0.2)</Label>
+                        </StackPanel>
+                        <StackPanel VerticalAlignment="Top">
+                            <Grid Height="180" Width="180">
+                                <Grid.Background>
+                                    <ImageBrush ImageSource="happyface.png" Stretch="Uniform"
+                                                Viewbox="0.4,0.5 0.2,0.2"
+                                                ></ImageBrush>
+                                </Grid.Background>
+                            </Grid>
+                            <Label>Stretch="Uniform"</Label>
+                            <Label>Viewbox="0.4,0.5 0.2,0.2"</Label>
+                        </StackPanel>
+                        
+                    </StackPanel>
+
+
+
+                </StackPanel>
+
+
+            </Expander>
+
+        </StackPanel>
+    </ScrollViewer>
+</Window>
