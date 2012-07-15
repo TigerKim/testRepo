@@ -1,0 +1,13 @@
+D:\test\wpf_demo\PathDemo1Geometry\bin\Debug\PathDemo1Geometry.exe
+D:\test\wpf_demo\PathDemo1Geometry\bin\Debug\PathDemo1Geometry.pdb
+D:\test\wpf_demo\PathDemo1Geometry\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\PathDemo1Geometry\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\PathDemo1Geometry\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\PathDemo1Geometry\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\PathDemo1Geometry\obj\x86\Debug\PathDemo1Geometry_MarkupCompile.cache
+D:\test\wpf_demo\PathDemo1Geometry\obj\x86\Debug\PathDemo1Geometry.g.resources
+D:\test\wpf_demo\PathDemo1Geometry\obj\x86\Debug\PathDemo1Geometry.Properties.Resources.resources
+D:\test\wpf_demo\PathDemo1Geometry\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\PathDemo1Geometry\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\PathDemo1Geometry\obj\x86\Debug\PathDemo1Geometry.exe
+D:\test\wpf_demo\PathDemo1Geometry\obj\x86\Debug\PathDemo1Geometry.pdb

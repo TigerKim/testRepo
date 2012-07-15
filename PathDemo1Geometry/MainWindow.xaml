@@ -1,0 +1,87 @@
+﻿<Window x:Class="PathDemo1Geometry.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Path와 Geometry 463page" Height="350" Width="618">
+    <Window.Resources>
+        <Style TargetType="StackPanel" >
+            <Setter Property="Margin" Value="5,5,5,5" />
+            <!--<Setter Property="StackPanel.Orientation" Value="Horizontal" />-->
+        </Style>
+    </Window.Resources>
+    <ScrollViewer>
+        <StackPanel>
+            <!-- 1 -->
+            <Expander Header="RectangleGeometry">
+                <StackPanel >
+                    <Rectangle Fill="Yellow" Stroke="Blue" Width="100" Height="50" HorizontalAlignment="Left"/>
+                    <Label></Label>
+                    <StackPanel Orientation="Horizontal">
+                        <Path Fill="Yellow" Stroke="Blue">
+                            <Path.Data>
+                                <RectangleGeometry Rect="0,0 100,50"></RectangleGeometry>
+                            </Path.Data>
+                        </Path>
+                        <Label>RectangleGeometry Rect="0,0 100,50"</Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Path Fill="Yellow" Stroke="Blue">
+                            <Path.Data>
+                                <RectangleGeometry Rect="0,0 100,50" RadiusX="20" RadiusY="20"></RectangleGeometry>
+                            </Path.Data>
+
+                        </Path>
+                        <Label>RectangleGeometry Rect="0,0 100,50" RadiusX="20" RadiusY="20"</Label>
+                    </StackPanel>
+                </StackPanel>
+            </Expander>
+
+            <!-- 2 -->
+            <Expander Header="LineGeometry">
+                <StackPanel >
+                    <StackPanel Orientation="Horizontal">
+                        <Line Stroke="Blue" X1="0" Y1="0" X2="100" Y2="50" HorizontalAlignment="Left"/>
+                        <Label>기존 방식</Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Path Fill="Yellow" Stroke="Blue">
+                            <Path.Data>
+                                <LineGeometry StartPoint="0,0" EndPoint="100,50"></LineGeometry >
+                            </Path.Data>
+                        </Path>
+                        <Label>LineGeometry StartPoint="0,0" EndPoint="10,100"</Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Path Fill="Yellow" Stroke="Blue">
+                            <Path.Data>
+                                <RectangleGeometry Rect="0,0 100,50" RadiusX="20" RadiusY="20"></RectangleGeometry>
+                            </Path.Data>
+
+                        </Path>
+                        <Label>RectangleGeometry Rect="0,0 100,50" RadiusX="20" RadiusY="20"</Label>
+                    </StackPanel>
+                </StackPanel>
+            </Expander>
+
+            <!-- 3 -->
+            <Expander Header="EllapseGeometry">
+                <StackPanel >
+                    <StackPanel Orientation="Horizontal">
+                        <Ellipse Fill="Yellow" Stroke="Blue" Width="100" Height="50" HorizontalAlignment="Left"/>
+                        <Label>기존 방식</Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Path Fill="Yellow" Stroke="Blue">
+                            <Path.Data>
+                                <EllipseGeometry RadiusX="50" RadiusY="25" Center="50,25" />
+                            </Path.Data>
+                        </Path>
+                        <Label>EllipseGeometry RadiusX="50" RadiusY="25" Center="50,25"</Label>
+                    </StackPanel>
+                    
+                </StackPanel>
+            </Expander>
+
+
+        </StackPanel>
+    </ScrollViewer>
+</Window>
