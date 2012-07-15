@@ -1,0 +1,13 @@
+D:\test\wpf_demo\PathDemo2GeometryGroup\bin\Debug\PathDemo2GeometryGroup.exe
+D:\test\wpf_demo\PathDemo2GeometryGroup\bin\Debug\PathDemo2GeometryGroup.pdb
+D:\test\wpf_demo\PathDemo2GeometryGroup\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\test\wpf_demo\PathDemo2GeometryGroup\obj\x86\Debug\MainWindow.baml
+D:\test\wpf_demo\PathDemo2GeometryGroup\obj\x86\Debug\MainWindow.g.cs
+D:\test\wpf_demo\PathDemo2GeometryGroup\obj\x86\Debug\App.g.cs
+D:\test\wpf_demo\PathDemo2GeometryGroup\obj\x86\Debug\PathDemo2GeometryGroup_MarkupCompile.cache
+D:\test\wpf_demo\PathDemo2GeometryGroup\obj\x86\Debug\PathDemo2GeometryGroup.g.resources
+D:\test\wpf_demo\PathDemo2GeometryGroup\obj\x86\Debug\PathDemo2GeometryGroup.Properties.Resources.resources
+D:\test\wpf_demo\PathDemo2GeometryGroup\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\test\wpf_demo\PathDemo2GeometryGroup\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\test\wpf_demo\PathDemo2GeometryGroup\obj\x86\Debug\PathDemo2GeometryGroup.exe
+D:\test\wpf_demo\PathDemo2GeometryGroup\obj\x86\Debug\PathDemo2GeometryGroup.pdb
