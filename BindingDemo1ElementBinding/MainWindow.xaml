@@ -1,0 +1,69 @@
+﻿<Window x:Class="BindingDemo1ElementBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <ScrollViewer>
+        <StackPanel>
+            
+            <!-- 1  -->
+            <Expander Header="단방향 바인딩 (547page)">
+                <StackPanel>
+                    <Slider Name="sliderFontSize" Margin="10" Minimum="1"
+                            Maximum ="40" Value="10" 
+                            TickFrequency="1"
+                            TickPlacement="TopLeft">
+                    </Slider>
+                    <TextBlock Margin="10" Text="Simple Text"
+                               Name="lblSampleText"
+                               FontSize="{Binding ElementName=sliderFontSize, Path=Value}" />
+                </StackPanel>
+            </Expander>
+
+            <!-- 2  -->
+            <Expander Header="단방향 바인딩 (547page)">
+                <StackPanel>
+                    <Slider Name="sliderFontSize2" Margin="10" Minimum="1"
+                            Maximum ="40" Value="10" 
+                            TickFrequency="1"
+                            TickPlacement="TopLeft">
+                    </Slider>
+                    <TextBlock Margin="10" Text="Simple Text"
+                               Name="lblSampleText2"
+                               FontSize="{Binding ElementName=sliderFontSize2, Path=Value}" />
+                    <StackPanel Orientation="Horizontal">
+                        <Button Name="SetSmall" Margin="10" Padding="10" Click="SetSmall_Click">Set to Small</Button>
+                        <Button Name="SetNormal" Margin="10" Padding="10" Click="SetNormal_Click">Set to Normal</Button>
+                        <Button Name="SetLarge" Margin="10" Padding="10" Click="SetLarge_Click">Set to Large</Button>
+                    </StackPanel>
+                    <Label>FontSize="{Binding ElementName=sliderFontSize2, Path=Value}"</Label>
+                    <Label>lblSampleText2.FontSize = 40; // 바인딩을 없애버린다</Label>
+                </StackPanel>
+            </Expander>
+
+
+            <!-- 3  -->
+            <Expander Header="양방향 바인딩 (549page)">
+                <StackPanel>
+                    <Slider Name="sliderFontSize3" Margin="10" Minimum="1"
+                            Maximum ="40" Value="10" 
+                            TickFrequency="1"
+                            TickPlacement="TopLeft">
+                    </Slider>
+                    <TextBlock Margin="10" Text="Simple Text"
+                               Name="lblSampleText3"
+                               FontSize="{Binding ElementName=sliderFontSize3, Path=Value, Mode=TwoWay}" />
+                    <StackPanel Orientation="Horizontal">
+                        <Button Name="SetSmall3" Margin="10" Padding="10" Click="SetSmall3_Click">Set to Small</Button>
+                        <Button Name="SetNormal3" Margin="10" Padding="10" Click="SetNormal3_Click">Set to Normal</Button>
+                        <Button Name="SetLarge3" Margin="10" Padding="10" Click="SetLarge3_Click">Set to Large</Button>
+                    </StackPanel>
+                    <Label>FontSize="{Binding ElementName=sliderFontSize3, Path=Value, Mode=TwoWay}</Label>
+                </StackPanel>
+            </Expander>
+
+
+
+
+        </StackPanel>
+    </ScrollViewer>
+</Window>
