@@ -77,5 +77,10 @@ namespace BindingDemo1ElementBinding
             binding.Mode = BindingMode.TwoWay;
             lblSampleText4.SetBinding(TextBlock.FontSizeProperty, binding);
         }
+
+        private void ClearAllBinding_Click(object sender, RoutedEventArgs e)
+        {
+            BindingOperations.ClearAllBindings(lblSampleText4);
+        }
     }
 }

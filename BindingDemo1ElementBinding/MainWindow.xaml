@@ -1,7 +1,7 @@
 ﻿<Window x:Class="BindingDemo1ElementBinding.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="437" Width="611">
+        Title="MainWindow" Height="628" Width="611">
     <ScrollViewer>
         <StackPanel>
             
@@ -69,8 +69,7 @@
                             TickFrequency="1"
                             TickPlacement="TopLeft">
                     </Slider>
-                    <TextBlock Margin="10" Text="Simple Text"
-                               Name="lblSampleText4"/>
+                    <TextBlock Margin="10" Text="Simple Text" Name="lblSampleText4"/>
                     <StackPanel Orientation="Horizontal">
                         <Button Margin="10" Padding="10" Click="SetBinding_Click">바인딩만들기</Button>
                         <Button Margin="10" Padding="10" Click="ClearAllBinding_Click">바인딩해제</Button>
@@ -78,10 +77,60 @@
                         <Button Margin="10" Padding="10" Click="SetNormal4_Click">Set to Normal</Button>
                         <Button Margin="10" Padding="10" Click="SetLarge4_Click">Set to Large</Button>
                     </StackPanel>
-                    <Label>FontSize="{Binding ElementName=sliderFontSize3, Path=Value, Mode=TwoWay}</Label>
+                    <Label></Label>
                 </StackPanel>
             </Expander>
 
+            <!-- 5  -->
+            <Expander Header="다중바인딩 (550page)" IsExpanded="False">
+                <StackPanel>
+                    <Slider Name="sliderFontSize5" Margin="10" Minimum="1"
+                            Maximum ="40" Value="10" 
+                            TickFrequency="1"
+                            TickPlacement="TopLeft">
+                    </Slider>
+                    <TextBox Margin="10" Padding="10" Name="txtContent5" FontSize="20">Here's my text</TextBox>
+                    <ListBox Margin="10" Padding="10" Name="lstColors5">
+                        <ListBoxItem Margin="5" Tag="Blue">Blue</ListBoxItem>
+                        <ListBoxItem Margin="5" Tag="Red">Red</ListBoxItem>
+                        <ListBoxItem Margin="5" Tag="LightBlue">Light Blue</ListBoxItem>
+                    </ListBox>
+                    <Border BorderThickness="1" Margin="10" BorderBrush="Silver">
+                        <TextBlock  Margin="10"  Name="lblSampleText5"
+                               FontSize="{Binding ElementName=sliderFontSize5, Path=Value}"
+                               Text="{Binding ElementName=txtContent5, Path=Text}"
+                               Foreground="{Binding ElementName=lstColors5,Path=SelectedItem.Tag}"
+                               ></TextBlock>
+                    </Border>
+                    <!---->
+                    
+                    <Label>FontSize="{Binding ElementName=sliderFontSize5, Path=Value}"</Label>
+                    <Label>Text="{Binding ElementName=txtContent5, Path=Text}"</Label>
+                    <Label>Foreground="{Binding ElementName=lstColors5,Path=SelectedItem.Tag}"</Label>
+                </StackPanel>
+            </Expander>
+            
+            
+             <!-- 6  -->
+            <Expander Header="다중바인딩 :  타겟 -> 소스 (551age)" IsExpanded="True">
+                <StackPanel>
+                    <Slider Name="sliderFontSize6" Margin="10" Minimum="1" IsSnapToTickEnabled="True"
+                        Maximum ="40" Value="20" TickFrequency="1" TickPlacement="TopLeft" />
+
+                    <TextBlock Margin="10" Text="Simple Text" Name="lblSampleText6"
+                        FontSize="{Binding ElementName=sliderFontSize6, Path=Value, Mode=TwoWay}" />
+                    <StackPanel Orientation="Horizontal">
+                        <Label Margin="10">Exact Size : </Label>
+                        <TextBox Width="50" Margin="10" 
+                                 Text="{Binding ElementName=lblSampleText6, Path=FontSize, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                                <TextBox Width="50" Margin="10" 
+                                 Text="{Binding ElementName=sliderFontSize6, Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                            </StackPanel>
+                            <Label>Slider  IsSnapToTickEnabled="True"</Label>
+                            <Label>TextBox Width="50" Text="{Binding ElementName=lblSampleText6, Path=FontSize, Mode=TwoWay, "</Label>
+                            <Label>UpdateSourceTrigger=PropertyChanged}"</Label>
+                        </StackPanel>
+            </Expander>
 
         </StackPanel>
     </ScrollViewer>

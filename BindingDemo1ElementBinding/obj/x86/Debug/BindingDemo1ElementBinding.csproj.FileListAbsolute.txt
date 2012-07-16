@@ -11,3 +11,16 @@ D:\test\wpf_demo\BindingDemo1ElementBinding\obj\x86\Debug\GenerateResource.read.
 D:\test\wpf_demo\BindingDemo1ElementBinding\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\test\wpf_demo\BindingDemo1ElementBinding\obj\x86\Debug\BindingDemo1ElementBinding.exe
 D:\test\wpf_demo\BindingDemo1ElementBinding\obj\x86\Debug\BindingDemo1ElementBinding.pdb
+C:\test_wpf\testRepo_20120711\BindingDemo1ElementBinding\obj\x86\Debug\BindingDemo1ElementBinding.exe
+C:\test_wpf\testRepo_20120711\BindingDemo1ElementBinding\obj\x86\Debug\BindingDemo1ElementBinding.pdb
+C:\test_wpf\testRepo_20120711\BindingDemo1ElementBinding\bin\Debug\BindingDemo1ElementBinding.exe
+C:\test_wpf\testRepo_20120711\BindingDemo1ElementBinding\bin\Debug\BindingDemo1ElementBinding.pdb
+C:\test_wpf\testRepo_20120711\BindingDemo1ElementBinding\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\test_wpf\testRepo_20120711\BindingDemo1ElementBinding\obj\x86\Debug\MainWindow.baml
+C:\test_wpf\testRepo_20120711\BindingDemo1ElementBinding\obj\x86\Debug\MainWindow.g.cs
+C:\test_wpf\testRepo_20120711\BindingDemo1ElementBinding\obj\x86\Debug\App.g.cs
+C:\test_wpf\testRepo_20120711\BindingDemo1ElementBinding\obj\x86\Debug\BindingDemo1ElementBinding_MarkupCompile.cache
+C:\test_wpf\testRepo_20120711\BindingDemo1ElementBinding\obj\x86\Debug\BindingDemo1ElementBinding.g.resources
+C:\test_wpf\testRepo_20120711\BindingDemo1ElementBinding\obj\x86\Debug\BindingDemo1ElementBinding.Properties.Resources.resources
+C:\test_wpf\testRepo_20120711\BindingDemo1ElementBinding\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\test_wpf\testRepo_20120711\BindingDemo1ElementBinding\obj\x86\Debug\GenerateResource.write.1.tlog

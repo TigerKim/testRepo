@@ -11,3 +11,16 @@ D:\test\wpf_demo\StyleDemo3TargetType\bin\Debug\StyleDemo3TargetType.exe
 D:\test\wpf_demo\StyleDemo3TargetType\bin\Debug\StyleDemo3TargetType.pdb
 D:\test\wpf_demo\StyleDemo3TargetType\obj\x86\Debug\StyleDemo3TargetType.exe
 D:\test\wpf_demo\StyleDemo3TargetType\obj\x86\Debug\StyleDemo3TargetType.pdb
+C:\test_wpf\testRepo_20120711\StyleDemo3TargetType\bin\Debug\StyleDemo3TargetType.exe
+C:\test_wpf\testRepo_20120711\StyleDemo3TargetType\bin\Debug\StyleDemo3TargetType.pdb
+C:\test_wpf\testRepo_20120711\StyleDemo3TargetType\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\test_wpf\testRepo_20120711\StyleDemo3TargetType\obj\x86\Debug\MainWindow.baml
+C:\test_wpf\testRepo_20120711\StyleDemo3TargetType\obj\x86\Debug\MainWindow.g.cs
+C:\test_wpf\testRepo_20120711\StyleDemo3TargetType\obj\x86\Debug\App.g.cs
+C:\test_wpf\testRepo_20120711\StyleDemo3TargetType\obj\x86\Debug\StyleDemo3TargetType_MarkupCompile.cache
+C:\test_wpf\testRepo_20120711\StyleDemo3TargetType\obj\x86\Debug\StyleDemo3TargetType.g.resources
+C:\test_wpf\testRepo_20120711\StyleDemo3TargetType\obj\x86\Debug\StyleDemo3TargetType.Properties.Resources.resources
+C:\test_wpf\testRepo_20120711\StyleDemo3TargetType\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\test_wpf\testRepo_20120711\StyleDemo3TargetType\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\test_wpf\testRepo_20120711\StyleDemo3TargetType\obj\x86\Debug\StyleDemo3TargetType.exe
+C:\test_wpf\testRepo_20120711\StyleDemo3TargetType\obj\x86\Debug\StyleDemo3TargetType.pdb

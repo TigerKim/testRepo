@@ -11,3 +11,16 @@ D:\test\wpf_demo\ShapeDemo7ImageBrush\obj\x86\Debug\GenerateResource.read.1.tlog
 D:\test\wpf_demo\ShapeDemo7ImageBrush\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\test\wpf_demo\ShapeDemo7ImageBrush\obj\x86\Debug\ShapeDemo7ImageBrush.exe
 D:\test\wpf_demo\ShapeDemo7ImageBrush\obj\x86\Debug\ShapeDemo7ImageBrush.pdb
+C:\test_wpf\testRepo_20120711\ShapeDemo7ImageBrush\bin\Debug\ShapeDemo7ImageBrush.exe
+C:\test_wpf\testRepo_20120711\ShapeDemo7ImageBrush\bin\Debug\ShapeDemo7ImageBrush.pdb
+C:\test_wpf\testRepo_20120711\ShapeDemo7ImageBrush\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\test_wpf\testRepo_20120711\ShapeDemo7ImageBrush\obj\x86\Debug\MainWindow.baml
+C:\test_wpf\testRepo_20120711\ShapeDemo7ImageBrush\obj\x86\Debug\MainWindow.g.cs
+C:\test_wpf\testRepo_20120711\ShapeDemo7ImageBrush\obj\x86\Debug\App.g.cs
+C:\test_wpf\testRepo_20120711\ShapeDemo7ImageBrush\obj\x86\Debug\ShapeDemo7ImageBrush_MarkupCompile.cache
+C:\test_wpf\testRepo_20120711\ShapeDemo7ImageBrush\obj\x86\Debug\ShapeDemo7ImageBrush.g.resources
+C:\test_wpf\testRepo_20120711\ShapeDemo7ImageBrush\obj\x86\Debug\ShapeDemo7ImageBrush.Properties.Resources.resources
+C:\test_wpf\testRepo_20120711\ShapeDemo7ImageBrush\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\test_wpf\testRepo_20120711\ShapeDemo7ImageBrush\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\test_wpf\testRepo_20120711\ShapeDemo7ImageBrush\obj\x86\Debug\ShapeDemo7ImageBrush.exe
+C:\test_wpf\testRepo_20120711\ShapeDemo7ImageBrush\obj\x86\Debug\ShapeDemo7ImageBrush.pdb

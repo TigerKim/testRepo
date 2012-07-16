@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-D:\test\wpf_demo\ResourceDictionaryDemo\obj\x86\Debug\
+C:\test_wpf\testRepo_20120711\ResourceDictionaryDemo\obj\x86\Debug\
 ResourceDictionaryDemo
 none
 false
 DEBUG;TRACE
-D:\test\wpf_demo\ResourceDictionaryDemo\App.xaml
+C:\test_wpf\testRepo_20120711\ResourceDictionaryDemo\App.xaml
 3-891352498
 
-6-1055192345
+6422599352
 12-1381780322
 AppBrushes.xaml;MainWindow.xaml;WizardBrushes.xaml;
 

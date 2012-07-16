@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-D:\test\wpf_demo\PageHosting\obj\x86\Debug\
+C:\test_wpf\testRepo_20120711\PageHosting\obj\x86\Debug\
 PageHosting
 none
 false
 DEBUG;TRACE
-D:\test\wpf_demo\PageHosting\App.xaml
+C:\test_wpf\testRepo_20120711\PageHosting\App.xaml
 3-349979442
 
-8496780210
+81974571907
 12-1381780322
 MainWindow.xaml;Page1.xaml;Page2.xaml;
 

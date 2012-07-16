@@ -11,3 +11,16 @@ D:\test\wpf_demo\MultiLayerStyle\obj\x86\Debug\GenerateResource.read.1.tlog
 D:\test\wpf_demo\MultiLayerStyle\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\test\wpf_demo\MultiLayerStyle\obj\x86\Debug\MultiLayerStyle.exe
 D:\test\wpf_demo\MultiLayerStyle\obj\x86\Debug\MultiLayerStyle.pdb
+C:\test_wpf\testRepo_20120711\MultiLayerStyle\bin\Debug\MultiLayerStyle.exe
+C:\test_wpf\testRepo_20120711\MultiLayerStyle\bin\Debug\MultiLayerStyle.pdb
+C:\test_wpf\testRepo_20120711\MultiLayerStyle\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\test_wpf\testRepo_20120711\MultiLayerStyle\obj\x86\Debug\MainWindow.baml
+C:\test_wpf\testRepo_20120711\MultiLayerStyle\obj\x86\Debug\MainWindow.g.cs
+C:\test_wpf\testRepo_20120711\MultiLayerStyle\obj\x86\Debug\App.g.cs
+C:\test_wpf\testRepo_20120711\MultiLayerStyle\obj\x86\Debug\MultiLayerStyle_MarkupCompile.cache
+C:\test_wpf\testRepo_20120711\MultiLayerStyle\obj\x86\Debug\MultiLayerStyle.g.resources
+C:\test_wpf\testRepo_20120711\MultiLayerStyle\obj\x86\Debug\MultiLayerStyle.Properties.Resources.resources
+C:\test_wpf\testRepo_20120711\MultiLayerStyle\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\test_wpf\testRepo_20120711\MultiLayerStyle\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\test_wpf\testRepo_20120711\MultiLayerStyle\obj\x86\Debug\MultiLayerStyle.exe
+C:\test_wpf\testRepo_20120711\MultiLayerStyle\obj\x86\Debug\MultiLayerStyle.pdb

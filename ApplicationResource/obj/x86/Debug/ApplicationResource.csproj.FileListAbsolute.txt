@@ -12,3 +12,17 @@ D:\test\wpf_demo\ApplicationResource\bin\Debug\ApplicationResource.exe
 D:\test\wpf_demo\ApplicationResource\bin\Debug\ApplicationResource.pdb
 D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\ApplicationResource.exe
 D:\test\wpf_demo\ApplicationResource\obj\x86\Debug\ApplicationResource.pdb
+C:\test_wpf\testRepo_20120711\ApplicationResource\bin\Debug\ApplicationResource.exe
+C:\test_wpf\testRepo_20120711\ApplicationResource\bin\Debug\ApplicationResource.pdb
+C:\test_wpf\testRepo_20120711\ApplicationResource\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\test_wpf\testRepo_20120711\ApplicationResource\obj\x86\Debug\MainWindow.baml
+C:\test_wpf\testRepo_20120711\ApplicationResource\obj\x86\Debug\App.baml
+C:\test_wpf\testRepo_20120711\ApplicationResource\obj\x86\Debug\MainWindow.g.cs
+C:\test_wpf\testRepo_20120711\ApplicationResource\obj\x86\Debug\App.g.cs
+C:\test_wpf\testRepo_20120711\ApplicationResource\obj\x86\Debug\ApplicationResource_MarkupCompile.cache
+C:\test_wpf\testRepo_20120711\ApplicationResource\obj\x86\Debug\ApplicationResource.g.resources
+C:\test_wpf\testRepo_20120711\ApplicationResource\obj\x86\Debug\ApplicationResource.Properties.Resources.resources
+C:\test_wpf\testRepo_20120711\ApplicationResource\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\test_wpf\testRepo_20120711\ApplicationResource\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\test_wpf\testRepo_20120711\ApplicationResource\obj\x86\Debug\ApplicationResource.exe
+C:\test_wpf\testRepo_20120711\ApplicationResource\obj\x86\Debug\ApplicationResource.pdb

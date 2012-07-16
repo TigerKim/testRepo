@@ -11,3 +11,16 @@ D:\test\wpf_demo\TriggerDemo2MultiTrigger\obj\x86\Debug\GenerateResource.read.1.
 D:\test\wpf_demo\TriggerDemo2MultiTrigger\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\test\wpf_demo\TriggerDemo2MultiTrigger\obj\x86\Debug\TriggerDemo2MultiTrigger.exe
 D:\test\wpf_demo\TriggerDemo2MultiTrigger\obj\x86\Debug\TriggerDemo2MultiTrigger.pdb
+C:\test_wpf\testRepo_20120711\TriggerDemo2MultiTrigger\bin\Debug\TriggerDemo2MultiTrigger.exe
+C:\test_wpf\testRepo_20120711\TriggerDemo2MultiTrigger\bin\Debug\TriggerDemo2MultiTrigger.pdb
+C:\test_wpf\testRepo_20120711\TriggerDemo2MultiTrigger\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\test_wpf\testRepo_20120711\TriggerDemo2MultiTrigger\obj\x86\Debug\MainWindow.baml
+C:\test_wpf\testRepo_20120711\TriggerDemo2MultiTrigger\obj\x86\Debug\MainWindow.g.cs
+C:\test_wpf\testRepo_20120711\TriggerDemo2MultiTrigger\obj\x86\Debug\App.g.cs
+C:\test_wpf\testRepo_20120711\TriggerDemo2MultiTrigger\obj\x86\Debug\TriggerDemo2MultiTrigger_MarkupCompile.cache
+C:\test_wpf\testRepo_20120711\TriggerDemo2MultiTrigger\obj\x86\Debug\TriggerDemo2MultiTrigger.g.resources
+C:\test_wpf\testRepo_20120711\TriggerDemo2MultiTrigger\obj\x86\Debug\TriggerDemo2MultiTrigger.Properties.Resources.resources
+C:\test_wpf\testRepo_20120711\TriggerDemo2MultiTrigger\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\test_wpf\testRepo_20120711\TriggerDemo2MultiTrigger\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\test_wpf\testRepo_20120711\TriggerDemo2MultiTrigger\obj\x86\Debug\TriggerDemo2MultiTrigger.exe
+C:\test_wpf\testRepo_20120711\TriggerDemo2MultiTrigger\obj\x86\Debug\TriggerDemo2MultiTrigger.pdb

@@ -11,3 +11,16 @@ D:\test\wpf_demo\SharedResource\bin\Debug\SharedResource.exe
 D:\test\wpf_demo\SharedResource\bin\Debug\SharedResource.pdb
 D:\test\wpf_demo\SharedResource\obj\x86\Debug\SharedResource.exe
 D:\test\wpf_demo\SharedResource\obj\x86\Debug\SharedResource.pdb
+C:\test_wpf\testRepo_20120711\SharedResource\bin\Debug\SharedResource.exe
+C:\test_wpf\testRepo_20120711\SharedResource\bin\Debug\SharedResource.pdb
+C:\test_wpf\testRepo_20120711\SharedResource\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\test_wpf\testRepo_20120711\SharedResource\obj\x86\Debug\MainWindow.baml
+C:\test_wpf\testRepo_20120711\SharedResource\obj\x86\Debug\MainWindow.g.cs
+C:\test_wpf\testRepo_20120711\SharedResource\obj\x86\Debug\App.g.cs
+C:\test_wpf\testRepo_20120711\SharedResource\obj\x86\Debug\SharedResource_MarkupCompile.cache
+C:\test_wpf\testRepo_20120711\SharedResource\obj\x86\Debug\SharedResource.g.resources
+C:\test_wpf\testRepo_20120711\SharedResource\obj\x86\Debug\SharedResource.Properties.Resources.resources
+C:\test_wpf\testRepo_20120711\SharedResource\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\test_wpf\testRepo_20120711\SharedResource\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\test_wpf\testRepo_20120711\SharedResource\obj\x86\Debug\SharedResource.exe
+C:\test_wpf\testRepo_20120711\SharedResource\obj\x86\Debug\SharedResource.pdb
