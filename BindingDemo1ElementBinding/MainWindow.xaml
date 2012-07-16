@@ -1,7 +1,7 @@
 ﻿<Window x:Class="BindingDemo1ElementBinding.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="437" Width="611">
     <ScrollViewer>
         <StackPanel>
             
@@ -61,7 +61,26 @@
                 </StackPanel>
             </Expander>
 
-
+            <!-- 4  -->
+            <Expander Header="코드로 바인딩 생성하기 (549page)">
+                <StackPanel>
+                    <Slider Name="sliderFontSize4" Margin="10" Minimum="1"
+                            Maximum ="40" Value="10" 
+                            TickFrequency="1"
+                            TickPlacement="TopLeft">
+                    </Slider>
+                    <TextBlock Margin="10" Text="Simple Text"
+                               Name="lblSampleText4"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Margin="10" Padding="10" Click="SetBinding_Click">바인딩만들기</Button>
+                        <Button Margin="10" Padding="10" Click="ClearAllBinding_Click">바인딩해제</Button>
+                        <Button Margin="10" Padding="10" Click="SetSmall4_Click">Set to Small</Button>
+                        <Button Margin="10" Padding="10" Click="SetNormal4_Click">Set to Normal</Button>
+                        <Button Margin="10" Padding="10" Click="SetLarge4_Click">Set to Large</Button>
+                    </StackPanel>
+                    <Label>FontSize="{Binding ElementName=sliderFontSize3, Path=Value, Mode=TwoWay}</Label>
+                </StackPanel>
+            </Expander>
 
 
         </StackPanel>

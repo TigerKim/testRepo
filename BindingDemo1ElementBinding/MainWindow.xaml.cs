@@ -53,5 +53,29 @@ namespace BindingDemo1ElementBinding
         {
             lblSampleText3.FontSize = 40; // 바인딩을 없애버린다
         }
+
+        private void SetSmall4_Click(object sender, RoutedEventArgs e)
+        {
+            sliderFontSize4.Value = 10;
+        }
+
+        private void SetNormal4_Click(object sender, RoutedEventArgs e)
+        {
+            sliderFontSize4.Value = 20;
+        }
+
+        private void SetLarge4_Click(object sender, RoutedEventArgs e)
+        {
+            lblSampleText4.FontSize = 40; // 바인딩을 없애버린다
+        }
+
+        private void SetBinding_Click(object sender, RoutedEventArgs e)
+        {
+            Binding binding = new Binding();
+            binding.Source = sliderFontSize4;
+            binding.Path = new PropertyPath("Value");
+            binding.Mode = BindingMode.TwoWay;
+            lblSampleText4.SetBinding(TextBlock.FontSizeProperty, binding);
+        }
     }
 }
